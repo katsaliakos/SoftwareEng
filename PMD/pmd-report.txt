@@ -1,0 +1,1455 @@
+src/CHIEFLogin.java:32:	All classes and interfaces must belong to a named package
+src/CHIEFLogin.java:32:	The class 'CHIEFLogin' has a Cyclomatic Complexity of 8 (Highest = 11).
+src/CHIEFLogin.java:32:	The class 'CHIEFLogin' has a Modified Cyclomatic Complexity of 8 (Highest = 11).
+src/CHIEFLogin.java:32:	The class 'CHIEFLogin' has a Standard Cyclomatic Complexity of 8 (Highest = 11).
+src/CHIEFLogin.java:32:	headerCommentRequirement Required
+src/CHIEFLogin.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CHIEFLogin.java:38:	Perhaps 'contentPane' could be replaced by a local variable.
+src/CHIEFLogin.java:38:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/CHIEFLogin.java:38:	fieldCommentRequirement Required
+src/CHIEFLogin.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CHIEFLogin.java:39:	Private field 'ChiefTextField' could be made final; it is only initialized in the declaration or constructor.
+src/CHIEFLogin.java:39:	fieldCommentRequirement Required
+src/CHIEFLogin.java:40:	Avoid excessively long variable names like ChiefPasswordField
+src/CHIEFLogin.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CHIEFLogin.java:40:	Private field 'ChiefPasswordField' could be made final; it is only initialized in the declaration or constructor.
+src/CHIEFLogin.java:40:	fieldCommentRequirement Required
+src/CHIEFLogin.java:45:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/CHIEFLogin.java:45:	Parameter 'args' is not assigned and could be declared final
+src/CHIEFLogin.java:46:	To be compliant to J2EE, a webapp should not use any thread.
+src/CHIEFLogin.java:47:	publicMethodCommentRequirement Required
+src/CHIEFLogin.java:49:	Local variable 'frame' could be declared final
+src/CHIEFLogin.java:51:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CHIEFLogin.java:52:	Avoid printStackTrace(); use a logger call instead.
+src/CHIEFLogin.java:58:	It is a good practice to call super() in a constructor
+src/CHIEFLogin.java:58:	The constructor 'CHIEFLogin' has a Cyclomatic Complexity of 11.
+src/CHIEFLogin.java:58:	The constructor 'CHIEFLogin' has a Modified Cyclomatic Complexity of 11.
+src/CHIEFLogin.java:58:	The constructor 'CHIEFLogin' has a Standard Cyclomatic Complexity of 11.
+src/CHIEFLogin.java:58:	publicMethodCommentRequirement Required
+src/CHIEFLogin.java:69:	Local variable 'LoginChiefBTN' could be declared final
+src/CHIEFLogin.java:70:	Local variable 'img' could be declared final
+src/CHIEFLogin.java:74:	Avoid excessively long variable names like LabelUsernameChief
+src/CHIEFLogin.java:74:	Local variable 'LabelUsernameChief' could be declared final
+src/CHIEFLogin.java:80:	The String literal "Tahoma" appears 4 times in this file; the first occurrence is on line 80
+src/CHIEFLogin.java:85:	Avoid excessively long variable names like LabelPasswordChief
+src/CHIEFLogin.java:85:	Local variable 'LabelPasswordChief' could be declared final
+src/CHIEFLogin.java:99:	Parameter 'arg0' is not assigned and could be declared final
+src/CHIEFLogin.java:99:	publicMethodCommentRequirement Required
+src/CHIEFLogin.java:101:	Local variable 'query2' could be declared final
+src/CHIEFLogin.java:102:	Ensure that resources like this java.sql.Connection object are closed after use
+src/CHIEFLogin.java:102:	Local variable 'conn' could be declared final
+src/CHIEFLogin.java:103:	Local variable 'pst1' could be declared final
+src/CHIEFLogin.java:103:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:104:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:105:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:107:	Avoid variables with short names like rs
+src/CHIEFLogin.java:107:	Ensure that resources like this ResultSet object are closed after use
+src/CHIEFLogin.java:107:	Local variable 'rs' could be declared final
+src/CHIEFLogin.java:107:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:108:	Found 'DD'-anomaly for variable 'count' (lines '108'-'110').
+src/CHIEFLogin.java:108:	Found 'DD'-anomaly for variable 'count' (lines '108'-'110').
+src/CHIEFLogin.java:109:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:110:	Found 'DD'-anomaly for variable 'count' (lines '110'-'110').
+src/CHIEFLogin.java:110:	Found 'DD'-anomaly for variable 'count' (lines '110'-'110').
+src/CHIEFLogin.java:112:	Avoid using Literals in Conditional Statements
+src/CHIEFLogin.java:115:	Local variable 'audioInputStream' could be declared final
+src/CHIEFLogin.java:115:	Potential violation of Law of Demeter (method chain calls)
+src/CHIEFLogin.java:115:	Potential violation of Law of Demeter (method chain calls)
+src/CHIEFLogin.java:116:	Local variable 'clip' could be declared final
+src/CHIEFLogin.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:118:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:119:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CHIEFLogin.java:119:	Avoid empty catch blocks
+src/CHIEFLogin.java:119:	Avoid empty catch blocks
+src/CHIEFLogin.java:121:	Avoid variables with short names like rw
+src/CHIEFLogin.java:121:	Local variable 'rw' could be declared final
+src/CHIEFLogin.java:124:	Avoid using Literals in Conditional Statements
+src/CHIEFLogin.java:126:	Local variable 'audioInputStream' could be declared final
+src/CHIEFLogin.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/CHIEFLogin.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/CHIEFLogin.java:127:	Local variable 'clip' could be declared final
+src/CHIEFLogin.java:128:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:129:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:130:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CHIEFLogin.java:130:	Avoid empty catch blocks
+src/CHIEFLogin.java:130:	Avoid empty catch blocks
+src/CHIEFLogin.java:135:	Local variable 'audioInputStream' could be declared final
+src/CHIEFLogin.java:135:	Potential violation of Law of Demeter (method chain calls)
+src/CHIEFLogin.java:135:	Potential violation of Law of Demeter (method chain calls)
+src/CHIEFLogin.java:136:	Local variable 'clip' could be declared final
+src/CHIEFLogin.java:137:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:138:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:139:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CHIEFLogin.java:139:	Avoid empty catch blocks
+src/CHIEFLogin.java:139:	Avoid empty catch blocks
+src/CHIEFLogin.java:144:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:145:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:146:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:147:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CHIEFLogin.java:149:	Local variable 'audioInputStream' could be declared final
+src/CHIEFLogin.java:149:	Potential violation of Law of Demeter (method chain calls)
+src/CHIEFLogin.java:149:	Potential violation of Law of Demeter (method chain calls)
+src/CHIEFLogin.java:150:	Local variable 'clip' could be declared final
+src/CHIEFLogin.java:151:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:152:	Potential violation of Law of Demeter (object not created locally)
+src/CHIEFLogin.java:153:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CHIEFLogin.java:153:	Avoid empty catch blocks
+src/CHIEFLogin.java:153:	Avoid empty catch blocks
+src/CHIEFLogin.java:162:	Local variable 'CancelCHIEF' could be declared final
+src/CHIEFLogin.java:163:	Local variable 'img2' could be declared final
+src/CHIEFLogin.java:167:	Avoid variables with short names like e
+src/CHIEFLogin.java:167:	Parameter 'e' is not assigned and could be declared final
+src/CHIEFLogin.java:167:	publicMethodCommentRequirement Required
+src/CHIEFLogin.java:174:	Local variable 'label' could be declared final
+src/CHIEFLogin.java:175:	Local variable 'img1' could be declared final
+src/CHIEFLogin.java:180:	Local variable 'back' could be declared final
+src/CHIEFLogin.java:181:	Local variable 'backg' could be declared final
+src/CreateCompany.java:32:	All classes and interfaces must belong to a named package
+src/CreateCompany.java:32:	The class 'CreateCompany' has a Cyclomatic Complexity of 8 (Highest = 12).
+src/CreateCompany.java:32:	The class 'CreateCompany' has a Modified Cyclomatic Complexity of 8 (Highest = 12).
+src/CreateCompany.java:32:	The class 'CreateCompany' has a Standard Cyclomatic Complexity of 8 (Highest = 12).
+src/CreateCompany.java:32:	headerCommentRequirement Required
+src/CreateCompany.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CreateCompany.java:38:	Perhaps 'contentPane' could be replaced by a local variable.
+src/CreateCompany.java:38:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/CreateCompany.java:38:	fieldCommentRequirement Required
+src/CreateCompany.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CreateCompany.java:39:	Private field 'NameCompTextField' could be made final; it is only initialized in the declaration or constructor.
+src/CreateCompany.java:39:	fieldCommentRequirement Required
+src/CreateCompany.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CreateCompany.java:40:	Perhaps 'SubmitBTN' could be replaced by a local variable.
+src/CreateCompany.java:40:	Private field 'SubmitBTN' could be made final; it is only initialized in the declaration or constructor.
+src/CreateCompany.java:40:	fieldCommentRequirement Required
+src/CreateCompany.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CreateCompany.java:41:	Perhaps 'btnCancel' could be replaced by a local variable.
+src/CreateCompany.java:41:	Private field 'btnCancel' could be made final; it is only initialized in the declaration or constructor.
+src/CreateCompany.java:41:	fieldCommentRequirement Required
+src/CreateCompany.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CreateCompany.java:42:	Use explicit scoping instead of the default package private level
+src/CreateCompany.java:42:	fieldCommentRequirement Required
+src/CreateCompany.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CreateCompany.java:43:	Perhaps 'background' could be replaced by a local variable.
+src/CreateCompany.java:43:	Private field 'background' could be made final; it is only initialized in the declaration or constructor.
+src/CreateCompany.java:43:	fieldCommentRequirement Required
+src/CreateCompany.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CreateCompany.java:44:	Private field 'companylist' could be made final; it is only initialized in the declaration or constructor.
+src/CreateCompany.java:44:	fieldCommentRequirement Required
+src/CreateCompany.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CreateCompany.java:45:	Perhaps 'scrollPane' could be replaced by a local variable.
+src/CreateCompany.java:45:	Private field 'scrollPane' could be made final; it is only initialized in the declaration or constructor.
+src/CreateCompany.java:45:	fieldCommentRequirement Required
+src/CreateCompany.java:46:	Avoid variables with short names like i
+src/CreateCompany.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CreateCompany.java:46:	fieldCommentRequirement Required
+src/CreateCompany.java:51:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/CreateCompany.java:51:	Parameter 'args' is not assigned and could be declared final
+src/CreateCompany.java:52:	To be compliant to J2EE, a webapp should not use any thread.
+src/CreateCompany.java:53:	publicMethodCommentRequirement Required
+src/CreateCompany.java:55:	Local variable 'frame' could be declared final
+src/CreateCompany.java:57:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CreateCompany.java:58:	Avoid printStackTrace(); use a logger call instead.
+src/CreateCompany.java:67:	It is a good practice to call super() in a constructor
+src/CreateCompany.java:67:	The constructor 'CreateCompany' has a Cyclomatic Complexity of 12.
+src/CreateCompany.java:67:	The constructor 'CreateCompany' has a Modified Cyclomatic Complexity of 12.
+src/CreateCompany.java:67:	The constructor 'CreateCompany' has a Standard Cyclomatic Complexity of 12.
+src/CreateCompany.java:69:	Found 'DD'-anomaly for variable 'companieslist' (lines '69'-'159').
+src/CreateCompany.java:69:	Found 'DD'-anomaly for variable 'companieslist' (lines '69'-'159').
+src/CreateCompany.java:69:	Found 'DD'-anomaly for variable 'companieslist' (lines '69'-'92').
+src/CreateCompany.java:69:	Found 'DD'-anomaly for variable 'companieslist' (lines '69'-'92').
+src/CreateCompany.java:69:	Found 'DU'-anomaly for variable 'companieslist' (lines '69'-'205').
+src/CreateCompany.java:69:	Found 'DU'-anomaly for variable 'companieslist' (lines '69'-'205').
+src/CreateCompany.java:70:	Found 'DD'-anomaly for variable 'theseiscp' (lines '70'-'161').
+src/CreateCompany.java:70:	Found 'DD'-anomaly for variable 'theseiscp' (lines '70'-'161').
+src/CreateCompany.java:70:	Found 'DD'-anomaly for variable 'theseiscp' (lines '70'-'94').
+src/CreateCompany.java:70:	Found 'DD'-anomaly for variable 'theseiscp' (lines '70'-'94').
+src/CreateCompany.java:70:	Found 'DU'-anomaly for variable 'theseiscp' (lines '70'-'205').
+src/CreateCompany.java:70:	Found 'DU'-anomaly for variable 'theseiscp' (lines '70'-'205').
+src/CreateCompany.java:80:	Local variable 'img' could be declared final
+src/CreateCompany.java:85:	Ensure that resources like this java.sql.Connection object are closed after use
+src/CreateCompany.java:85:	Local variable 'connection' could be declared final
+src/CreateCompany.java:86:	Local variable 'query1' could be declared final
+src/CreateCompany.java:87:	Local variable 'pst1' could be declared final
+src/CreateCompany.java:88:	Avoid variables with short names like rs
+src/CreateCompany.java:88:	Ensure that resources like this ResultSet object are closed after use
+src/CreateCompany.java:88:	Local variable 'rs' could be declared final
+src/CreateCompany.java:89:	Local variable 'DLM' could be declared final
+src/CreateCompany.java:94:	Found 'DD'-anomaly for variable 'theseiscp' (lines '94'-'161').
+src/CreateCompany.java:94:	Found 'DD'-anomaly for variable 'theseiscp' (lines '94'-'161').
+src/CreateCompany.java:94:	Found 'DD'-anomaly for variable 'theseiscp' (lines '94'-'94').
+src/CreateCompany.java:94:	Found 'DD'-anomaly for variable 'theseiscp' (lines '94'-'94').
+src/CreateCompany.java:94:	Found 'DU'-anomaly for variable 'theseiscp' (lines '94'-'205').
+src/CreateCompany.java:94:	Found 'DU'-anomaly for variable 'theseiscp' (lines '94'-'205').
+src/CreateCompany.java:100:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CreateCompany.java:102:	Local variable 'audioInputStream' could be declared final
+src/CreateCompany.java:103:	Local variable 'clip' could be declared final
+src/CreateCompany.java:106:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CreateCompany.java:106:	Avoid empty catch blocks
+src/CreateCompany.java:106:	Avoid empty catch blocks
+src/CreateCompany.java:117:	Local variable 'lblNewLabel' could be declared final
+src/CreateCompany.java:124:	Parameter 'arg0' is not assigned and could be declared final
+src/CreateCompany.java:124:	publicMethodCommentRequirement Required
+src/CreateCompany.java:127:	Ensure that resources like this java.sql.Connection object are closed after use
+src/CreateCompany.java:127:	Local variable 'connection' could be declared final
+src/CreateCompany.java:128:	Local variable 'query1' could be declared final
+src/CreateCompany.java:129:	Local variable 'pst1' could be declared final
+src/CreateCompany.java:129:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:130:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:131:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:133:	Local variable 'audioInputStream' could be declared final
+src/CreateCompany.java:133:	Potential violation of Law of Demeter (method chain calls)
+src/CreateCompany.java:133:	Potential violation of Law of Demeter (method chain calls)
+src/CreateCompany.java:134:	Local variable 'clip' could be declared final
+src/CreateCompany.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:136:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:137:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CreateCompany.java:137:	Avoid empty catch blocks
+src/CreateCompany.java:137:	Avoid empty catch blocks
+src/CreateCompany.java:140:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CreateCompany.java:142:	Local variable 'audioInputStream' could be declared final
+src/CreateCompany.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/CreateCompany.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/CreateCompany.java:143:	Local variable 'clip' could be declared final
+src/CreateCompany.java:144:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:145:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:146:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CreateCompany.java:146:	Avoid empty catch blocks
+src/CreateCompany.java:146:	Avoid empty catch blocks
+src/CreateCompany.java:152:	Ensure that resources like this java.sql.Connection object are closed after use
+src/CreateCompany.java:152:	Local variable 'connection' could be declared final
+src/CreateCompany.java:153:	Local variable 'query1' could be declared final
+src/CreateCompany.java:154:	Local variable 'pst1' could be declared final
+src/CreateCompany.java:154:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:155:	Avoid variables with short names like rs
+src/CreateCompany.java:155:	Ensure that resources like this ResultSet object are closed after use
+src/CreateCompany.java:155:	Local variable 'rs' could be declared final
+src/CreateCompany.java:155:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:156:	Local variable 'DLM' could be declared final
+src/CreateCompany.java:158:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:159:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:160:	Potential violation of Law of Demeter (method chain calls)
+src/CreateCompany.java:160:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:161:	Found 'DD'-anomaly for variable 'theseiscp' (lines '161'-'161').
+src/CreateCompany.java:161:	Found 'DD'-anomaly for variable 'theseiscp' (lines '161'-'161').
+src/CreateCompany.java:161:	Found 'DU'-anomaly for variable 'theseiscp' (lines '161'-'205').
+src/CreateCompany.java:161:	Found 'DU'-anomaly for variable 'theseiscp' (lines '161'-'205').
+src/CreateCompany.java:165:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:166:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:167:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CreateCompany.java:169:	Local variable 'audioInputStream' could be declared final
+src/CreateCompany.java:169:	Potential violation of Law of Demeter (method chain calls)
+src/CreateCompany.java:169:	Potential violation of Law of Demeter (method chain calls)
+src/CreateCompany.java:170:	Local variable 'clip' could be declared final
+src/CreateCompany.java:171:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:172:	Potential violation of Law of Demeter (object not created locally)
+src/CreateCompany.java:173:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/CreateCompany.java:173:	Avoid empty catch blocks
+src/CreateCompany.java:173:	Avoid empty catch blocks
+src/CreateCompany.java:182:	Local variable 'img1' could be declared final
+src/CreateCompany.java:186:	Avoid variables with short names like e
+src/CreateCompany.java:186:	Parameter 'e' is not assigned and could be declared final
+src/CreateCompany.java:186:	publicMethodCommentRequirement Required
+src/CreateCompany.java:192:	An empty statement (semicolon) not part of a loop
+src/CreateCompany.java:192:	An empty statement (semicolon) not part of a loop
+src/CreateCompany.java:192:	Local variable 'backg' could be declared final
+src/DeleteComp.java:29:	All classes and interfaces must belong to a named package
+src/DeleteComp.java:29:	The class 'DeleteComp' has a Cyclomatic Complexity of 10 (Highest = 15).
+src/DeleteComp.java:29:	The class 'DeleteComp' has a Modified Cyclomatic Complexity of 10 (Highest = 15).
+src/DeleteComp.java:29:	The class 'DeleteComp' has a Standard Cyclomatic Complexity of 10 (Highest = 15).
+src/DeleteComp.java:29:	headerCommentRequirement Required
+src/DeleteComp.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/DeleteComp.java:35:	Perhaps 'contentPane' could be replaced by a local variable.
+src/DeleteComp.java:35:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/DeleteComp.java:35:	fieldCommentRequirement Required
+src/DeleteComp.java:36:	Avoid using redundant field initializer for 'i'
+src/DeleteComp.java:36:	Avoid variables with short names like i
+src/DeleteComp.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/DeleteComp.java:36:	Use explicit scoping instead of the default package private level
+src/DeleteComp.java:36:	fieldCommentRequirement Required
+src/DeleteComp.java:41:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/DeleteComp.java:41:	Parameter 'args' is not assigned and could be declared final
+src/DeleteComp.java:42:	To be compliant to J2EE, a webapp should not use any thread.
+src/DeleteComp.java:43:	publicMethodCommentRequirement Required
+src/DeleteComp.java:45:	Local variable 'frame' could be declared final
+src/DeleteComp.java:47:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/DeleteComp.java:48:	Avoid printStackTrace(); use a logger call instead.
+src/DeleteComp.java:57:	It is a good practice to call super() in a constructor
+src/DeleteComp.java:57:	The constructor 'DeleteComp' has a Cyclomatic Complexity of 15.
+src/DeleteComp.java:57:	The constructor 'DeleteComp' has a Modified Cyclomatic Complexity of 15.
+src/DeleteComp.java:57:	The constructor 'DeleteComp' has a Standard Cyclomatic Complexity of 15.
+src/DeleteComp.java:60:	Found 'DD'-anomaly for variable 'companieslist' (lines '60'-'127').
+src/DeleteComp.java:60:	Found 'DD'-anomaly for variable 'companieslist' (lines '60'-'127').
+src/DeleteComp.java:60:	Found 'DD'-anomaly for variable 'companieslist' (lines '60'-'127').
+src/DeleteComp.java:60:	Found 'DD'-anomaly for variable 'companieslist' (lines '60'-'176').
+src/DeleteComp.java:60:	Found 'DD'-anomaly for variable 'companieslist' (lines '60'-'176').
+src/DeleteComp.java:60:	Found 'DD'-anomaly for variable 'companieslist' (lines '60'-'176').
+src/DeleteComp.java:60:	Found 'DU'-anomaly for variable 'companieslist' (lines '60'-'209').
+src/DeleteComp.java:60:	Found 'DU'-anomaly for variable 'companieslist' (lines '60'-'209').
+src/DeleteComp.java:60:	Found 'DU'-anomaly for variable 'companieslist' (lines '60'-'209').
+src/DeleteComp.java:61:	Found 'DD'-anomaly for variable 'theseiscp' (lines '61'-'129').
+src/DeleteComp.java:61:	Found 'DD'-anomaly for variable 'theseiscp' (lines '61'-'129').
+src/DeleteComp.java:61:	Found 'DD'-anomaly for variable 'theseiscp' (lines '61'-'129').
+src/DeleteComp.java:61:	Found 'DD'-anomaly for variable 'theseiscp' (lines '61'-'178').
+src/DeleteComp.java:61:	Found 'DD'-anomaly for variable 'theseiscp' (lines '61'-'178').
+src/DeleteComp.java:61:	Found 'DD'-anomaly for variable 'theseiscp' (lines '61'-'178').
+src/DeleteComp.java:61:	Found 'DU'-anomaly for variable 'theseiscp' (lines '61'-'209').
+src/DeleteComp.java:61:	Found 'DU'-anomaly for variable 'theseiscp' (lines '61'-'209').
+src/DeleteComp.java:61:	Found 'DU'-anomaly for variable 'theseiscp' (lines '61'-'209').
+src/DeleteComp.java:69:	Local variable 'button_1' could be declared final
+src/DeleteComp.java:70:	Local variable 'img1' could be declared final
+src/DeleteComp.java:74:	Local variable 'scrollPane' could be declared final
+src/DeleteComp.java:78:	Local variable 'companylist' could be declared final
+src/DeleteComp.java:81:	Local variable 'btnCancel' could be declared final
+src/DeleteComp.java:82:	Local variable 'img2' could be declared final
+src/DeleteComp.java:86:	Avoid variables with short names like e
+src/DeleteComp.java:86:	Parameter 'e' is not assigned and could be declared final
+src/DeleteComp.java:86:	publicMethodCommentRequirement Required
+src/DeleteComp.java:95:	Avoid variables with short names like e
+src/DeleteComp.java:95:	Parameter 'e' is not assigned and could be declared final
+src/DeleteComp.java:95:	publicMethodCommentRequirement Required
+src/DeleteComp.java:96:	Found 'DU'-anomaly for variable 'company' (lines '96'-'209').
+src/DeleteComp.java:96:	Found 'DU'-anomaly for variable 'company' (lines '96'-'209').
+src/DeleteComp.java:96:	Found 'DU'-anomaly for variable 'company' (lines '96'-'209').
+src/DeleteComp.java:96:	Local variable 'company' could be declared final
+src/DeleteComp.java:98:	Local variable 'audioInputStream' could be declared final
+src/DeleteComp.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/DeleteComp.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/DeleteComp.java:99:	Local variable 'clip' could be declared final
+src/DeleteComp.java:100:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:101:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:102:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/DeleteComp.java:102:	Avoid empty catch blocks
+src/DeleteComp.java:102:	Avoid empty catch blocks
+src/DeleteComp.java:103:	Local variable 'action' could be declared final
+src/DeleteComp.java:107:	Ensure that resources like this java.sql.Connection object are closed after use
+src/DeleteComp.java:107:	Local variable 'connection' could be declared final
+src/DeleteComp.java:108:	Local variable 'query1' could be declared final
+src/DeleteComp.java:109:	Local variable 'pst1' could be declared final
+src/DeleteComp.java:109:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:110:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:111:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:113:	Local variable 'audioInputStream' could be declared final
+src/DeleteComp.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/DeleteComp.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/DeleteComp.java:114:	Local variable 'clip' could be declared final
+src/DeleteComp.java:115:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:116:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:117:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/DeleteComp.java:117:	Avoid empty catch blocks
+src/DeleteComp.java:117:	Avoid empty catch blocks
+src/DeleteComp.java:120:	Ensure that resources like this java.sql.Connection object are closed after use
+src/DeleteComp.java:120:	Local variable 'connection1' could be declared final
+src/DeleteComp.java:121:	Local variable 'query3' could be declared final
+src/DeleteComp.java:122:	Local variable 'pst3' could be declared final
+src/DeleteComp.java:122:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:123:	Ensure that resources like this ResultSet object are closed after use
+src/DeleteComp.java:123:	Local variable 'rs3' could be declared final
+src/DeleteComp.java:123:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:124:	Local variable 'DLM' could be declared final
+src/DeleteComp.java:126:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:127:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:128:	Potential violation of Law of Demeter (method chain calls)
+src/DeleteComp.java:128:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:129:	Found 'DD'-anomaly for variable 'theseiscp' (lines '129'-'129').
+src/DeleteComp.java:129:	Found 'DD'-anomaly for variable 'theseiscp' (lines '129'-'129').
+src/DeleteComp.java:129:	Found 'DD'-anomaly for variable 'theseiscp' (lines '129'-'129').
+src/DeleteComp.java:129:	Found 'DD'-anomaly for variable 'theseiscp' (lines '129'-'178').
+src/DeleteComp.java:129:	Found 'DD'-anomaly for variable 'theseiscp' (lines '129'-'178').
+src/DeleteComp.java:129:	Found 'DD'-anomaly for variable 'theseiscp' (lines '129'-'178').
+src/DeleteComp.java:129:	Found 'DU'-anomaly for variable 'theseiscp' (lines '129'-'209').
+src/DeleteComp.java:129:	Found 'DU'-anomaly for variable 'theseiscp' (lines '129'-'209').
+src/DeleteComp.java:129:	Found 'DU'-anomaly for variable 'theseiscp' (lines '129'-'209').
+src/DeleteComp.java:133:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:135:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/DeleteComp.java:137:	Local variable 'audioInputStream' could be declared final
+src/DeleteComp.java:137:	Potential violation of Law of Demeter (method chain calls)
+src/DeleteComp.java:137:	Potential violation of Law of Demeter (method chain calls)
+src/DeleteComp.java:138:	Local variable 'clip' could be declared final
+src/DeleteComp.java:139:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:140:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:141:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/DeleteComp.java:141:	Avoid empty catch blocks
+src/DeleteComp.java:141:	Avoid empty catch blocks
+src/DeleteComp.java:144:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/DeleteComp.java:146:	Local variable 'audioInputStream' could be declared final
+src/DeleteComp.java:146:	Potential violation of Law of Demeter (method chain calls)
+src/DeleteComp.java:146:	Potential violation of Law of Demeter (method chain calls)
+src/DeleteComp.java:147:	Local variable 'clip' could be declared final
+src/DeleteComp.java:148:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:149:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:150:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/DeleteComp.java:150:	Avoid empty catch blocks
+src/DeleteComp.java:150:	Avoid empty catch blocks
+src/DeleteComp.java:153:	Avoid empty if statements
+src/DeleteComp.java:153:	Avoid empty if statements
+src/DeleteComp.java:162:	Local variable 'button_2' could be declared final
+src/DeleteComp.java:163:	Local variable 'img' could be declared final
+src/DeleteComp.java:167:	Avoid variables with short names like e
+src/DeleteComp.java:167:	Parameter 'e' is not assigned and could be declared final
+src/DeleteComp.java:167:	publicMethodCommentRequirement Required
+src/DeleteComp.java:169:	Ensure that resources like this java.sql.Connection object are closed after use
+src/DeleteComp.java:169:	Local variable 'connection' could be declared final
+src/DeleteComp.java:170:	Local variable 'query1' could be declared final
+src/DeleteComp.java:171:	Local variable 'pst1' could be declared final
+src/DeleteComp.java:171:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:172:	Avoid variables with short names like rs
+src/DeleteComp.java:172:	Ensure that resources like this ResultSet object are closed after use
+src/DeleteComp.java:172:	Local variable 'rs' could be declared final
+src/DeleteComp.java:172:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:173:	Local variable 'DLM' could be declared final
+src/DeleteComp.java:175:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:176:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:177:	Potential violation of Law of Demeter (method chain calls)
+src/DeleteComp.java:177:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:178:	Found 'DD'-anomaly for variable 'theseiscp' (lines '178'-'178').
+src/DeleteComp.java:178:	Found 'DD'-anomaly for variable 'theseiscp' (lines '178'-'178').
+src/DeleteComp.java:178:	Found 'DD'-anomaly for variable 'theseiscp' (lines '178'-'178').
+src/DeleteComp.java:178:	Found 'DU'-anomaly for variable 'theseiscp' (lines '178'-'209').
+src/DeleteComp.java:178:	Found 'DU'-anomaly for variable 'theseiscp' (lines '178'-'209').
+src/DeleteComp.java:178:	Found 'DU'-anomaly for variable 'theseiscp' (lines '178'-'209').
+src/DeleteComp.java:182:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:183:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:184:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/DeleteComp.java:186:	Local variable 'audioInputStream' could be declared final
+src/DeleteComp.java:186:	Potential violation of Law of Demeter (method chain calls)
+src/DeleteComp.java:186:	Potential violation of Law of Demeter (method chain calls)
+src/DeleteComp.java:187:	Local variable 'clip' could be declared final
+src/DeleteComp.java:188:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:189:	Potential violation of Law of Demeter (object not created locally)
+src/DeleteComp.java:190:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/DeleteComp.java:190:	Avoid empty catch blocks
+src/DeleteComp.java:190:	Avoid empty catch blocks
+src/DeleteComp.java:198:	Local variable 'lblNewLabel' could be declared final
+src/DeleteComp.java:199:	Local variable 'img3' could be declared final
+src/DeleteComp.java:204:	Local variable 'background' could be declared final
+src/DeleteComp.java:205:	Local variable 'backg' could be declared final
+src/EditCompany.java:38:	All classes and interfaces must belong to a named package
+src/EditCompany.java:38:	The class 'EditCompany' has a Cyclomatic Complexity of 16 (Highest = 28).
+src/EditCompany.java:38:	The class 'EditCompany' has a Modified Cyclomatic Complexity of 16 (Highest = 28).
+src/EditCompany.java:38:	The class 'EditCompany' has a Standard Cyclomatic Complexity of 16 (Highest = 28).
+src/EditCompany.java:38:	Too many fields
+src/EditCompany.java:38:	headerCommentRequirement Required
+src/EditCompany.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:43:	Private field 'companylist' could be made final; it is only initialized in the declaration or constructor.
+src/EditCompany.java:43:	fieldCommentRequirement Required
+src/EditCompany.java:44:	Avoid using redundant field initializer for 'i'
+src/EditCompany.java:44:	Avoid variables with short names like i
+src/EditCompany.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:44:	Use explicit scoping instead of the default package private level
+src/EditCompany.java:44:	fieldCommentRequirement Required
+src/EditCompany.java:45:	Avoid using redundant field initializer for 'j'
+src/EditCompany.java:45:	Avoid variables with short names like j
+src/EditCompany.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:45:	Use explicit scoping instead of the default package private level
+src/EditCompany.java:45:	fieldCommentRequirement Required
+src/EditCompany.java:46:	Avoid using redundant field initializer for 'company'
+src/EditCompany.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:46:	Use explicit scoping instead of the default package private level
+src/EditCompany.java:46:	fieldCommentRequirement Required
+src/EditCompany.java:47:	Avoid using redundant field initializer for 'hr'
+src/EditCompany.java:47:	Avoid variables with short names like hr
+src/EditCompany.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:47:	Use explicit scoping instead of the default package private level
+src/EditCompany.java:47:	fieldCommentRequirement Required
+src/EditCompany.java:48:	Avoid using redundant field initializer for 'var'
+src/EditCompany.java:48:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:48:	Use explicit scoping instead of the default package private level
+src/EditCompany.java:48:	fieldCommentRequirement Required
+src/EditCompany.java:51:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:51:	Perhaps 'contentPane' could be replaced by a local variable.
+src/EditCompany.java:51:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/EditCompany.java:51:	fieldCommentRequirement Required
+src/EditCompany.java:52:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:52:	Perhaps 'labelcompany' could be replaced by a local variable.
+src/EditCompany.java:52:	Private field 'labelcompany' could be made final; it is only initialized in the declaration or constructor.
+src/EditCompany.java:52:	fieldCommentRequirement Required
+src/EditCompany.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:53:	Private field 'hrlist' could be made final; it is only initialized in the declaration or constructor.
+src/EditCompany.java:53:	fieldCommentRequirement Required
+src/EditCompany.java:54:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:54:	Perhaps 'lblHr' could be replaced by a local variable.
+src/EditCompany.java:54:	Private field 'lblHr' could be made final; it is only initialized in the declaration or constructor.
+src/EditCompany.java:54:	fieldCommentRequirement Required
+src/EditCompany.java:55:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:55:	Perhaps 'scrollPane' could be replaced by a local variable.
+src/EditCompany.java:55:	Private field 'scrollPane' could be made final; it is only initialized in the declaration or constructor.
+src/EditCompany.java:55:	fieldCommentRequirement Required
+src/EditCompany.java:56:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:56:	Private field 'nameText' could be made final; it is only initialized in the declaration or constructor.
+src/EditCompany.java:56:	fieldCommentRequirement Required
+src/EditCompany.java:57:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:57:	Private field 'surnameText' could be made final; it is only initialized in the declaration or constructor.
+src/EditCompany.java:57:	fieldCommentRequirement Required
+src/EditCompany.java:58:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:58:	Private field 'SalText' could be made final; it is only initialized in the declaration or constructor.
+src/EditCompany.java:58:	fieldCommentRequirement Required
+src/EditCompany.java:59:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:59:	Private field 'PhoneText' could be made final; it is only initialized in the declaration or constructor.
+src/EditCompany.java:59:	fieldCommentRequirement Required
+src/EditCompany.java:60:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:60:	Perhaps 'DeleteButton' could be replaced by a local variable.
+src/EditCompany.java:60:	Private field 'DeleteButton' could be made final; it is only initialized in the declaration or constructor.
+src/EditCompany.java:60:	fieldCommentRequirement Required
+src/EditCompany.java:61:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:61:	Perhaps 'scrollPane_1' could be replaced by a local variable.
+src/EditCompany.java:61:	Private field 'scrollPane_1' could be made final; it is only initialized in the declaration or constructor.
+src/EditCompany.java:61:	fieldCommentRequirement Required
+src/EditCompany.java:62:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/EditCompany.java:62:	Perhaps 'label_6' could be replaced by a local variable.
+src/EditCompany.java:62:	Private field 'label_6' could be made final; it is only initialized in the declaration or constructor.
+src/EditCompany.java:62:	fieldCommentRequirement Required
+src/EditCompany.java:67:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/EditCompany.java:67:	Parameter 'args' is not assigned and could be declared final
+src/EditCompany.java:68:	To be compliant to J2EE, a webapp should not use any thread.
+src/EditCompany.java:69:	publicMethodCommentRequirement Required
+src/EditCompany.java:71:	Local variable 'frame' could be declared final
+src/EditCompany.java:73:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:74:	Avoid printStackTrace(); use a logger call instead.
+src/EditCompany.java:84:	It is a good practice to call super() in a constructor
+src/EditCompany.java:84:	The constructor 'EditCompany' has a Cyclomatic Complexity of 28.
+src/EditCompany.java:84:	The constructor 'EditCompany' has a Modified Cyclomatic Complexity of 28.
+src/EditCompany.java:84:	The constructor 'EditCompany' has a Standard Cyclomatic Complexity of 28.
+src/EditCompany.java:84:	The constructor with 0 parameters has an NCSS line count of 132
+src/EditCompany.java:88:	Found 'DD'-anomaly for variable 'companieslist' (lines '88'-'465').
+src/EditCompany.java:88:	Found 'DD'-anomaly for variable 'companieslist' (lines '88'-'465').
+src/EditCompany.java:88:	Found 'DU'-anomaly for variable 'companieslist' (lines '88'-'479').
+src/EditCompany.java:88:	Found 'DU'-anomaly for variable 'companieslist' (lines '88'-'479').
+src/EditCompany.java:89:	Found 'DD'-anomaly for variable 'theseiscp' (lines '89'-'467').
+src/EditCompany.java:89:	Found 'DD'-anomaly for variable 'theseiscp' (lines '89'-'467').
+src/EditCompany.java:89:	Found 'DU'-anomaly for variable 'theseiscp' (lines '89'-'479').
+src/EditCompany.java:89:	Found 'DU'-anomaly for variable 'theseiscp' (lines '89'-'479').
+src/EditCompany.java:90:	Found 'DD'-anomaly for variable 'theseishr' (lines '90'-'147').
+src/EditCompany.java:90:	Found 'DD'-anomaly for variable 'theseishr' (lines '90'-'147').
+src/EditCompany.java:90:	Found 'DD'-anomaly for variable 'theseishr' (lines '90'-'147').
+src/EditCompany.java:90:	Found 'DD'-anomaly for variable 'theseishr' (lines '90'-'218').
+src/EditCompany.java:90:	Found 'DD'-anomaly for variable 'theseishr' (lines '90'-'218').
+src/EditCompany.java:90:	Found 'DD'-anomaly for variable 'theseishr' (lines '90'-'336').
+src/EditCompany.java:90:	Found 'DD'-anomaly for variable 'theseishr' (lines '90'-'336').
+src/EditCompany.java:90:	Found 'DD'-anomaly for variable 'theseishr' (lines '90'-'407').
+src/EditCompany.java:90:	Found 'DD'-anomaly for variable 'theseishr' (lines '90'-'407').
+src/EditCompany.java:90:	Found 'DU'-anomaly for variable 'theseishr' (lines '90'-'479').
+src/EditCompany.java:90:	Found 'DU'-anomaly for variable 'theseishr' (lines '90'-'479').
+src/EditCompany.java:91:	Found 'DD'-anomaly for variable 'hrcat' (lines '91'-'141').
+src/EditCompany.java:91:	Found 'DD'-anomaly for variable 'hrcat' (lines '91'-'141').
+src/EditCompany.java:91:	Found 'DD'-anomaly for variable 'hrcat' (lines '91'-'141').
+src/EditCompany.java:91:	Found 'DD'-anomaly for variable 'hrcat' (lines '91'-'212').
+src/EditCompany.java:91:	Found 'DD'-anomaly for variable 'hrcat' (lines '91'-'212').
+src/EditCompany.java:91:	Found 'DD'-anomaly for variable 'hrcat' (lines '91'-'330').
+src/EditCompany.java:91:	Found 'DD'-anomaly for variable 'hrcat' (lines '91'-'330').
+src/EditCompany.java:91:	Found 'DD'-anomaly for variable 'hrcat' (lines '91'-'401').
+src/EditCompany.java:91:	Found 'DD'-anomaly for variable 'hrcat' (lines '91'-'401').
+src/EditCompany.java:91:	Found 'DU'-anomaly for variable 'hrcat' (lines '91'-'479').
+src/EditCompany.java:91:	Found 'DU'-anomaly for variable 'hrcat' (lines '91'-'479').
+src/EditCompany.java:100:	Local variable 'editButton' could be declared final
+src/EditCompany.java:101:	Local variable 'img2' could be declared final
+src/EditCompany.java:103:	The String literal "Tahoma" appears 10 times in this file; the first occurrence is on line 103
+src/EditCompany.java:105:	Avoid variables with short names like e
+src/EditCompany.java:105:	Parameter 'e' is not assigned and could be declared final
+src/EditCompany.java:105:	publicMethodCommentRequirement Required
+src/EditCompany.java:108:	Local variable 'name' could be declared final
+src/EditCompany.java:109:	Local variable 'surname' could be declared final
+src/EditCompany.java:110:	Local variable 'salary' could be declared final
+src/EditCompany.java:111:	Local variable 'phone' could be declared final
+src/EditCompany.java:112:	Local variable 'splited' could be declared final
+src/EditCompany.java:114:	Ensure that resources like this java.sql.Connection object are closed after use
+src/EditCompany.java:114:	Local variable 'connection' could be declared final
+src/EditCompany.java:114:	The String literal "1234" appears 8 times in this file; the first occurrence is on line 114
+src/EditCompany.java:114:	The String literal "jdbc:mysql://83.212.120.62:3306/companies" appears 8 times in this file; the first occurrence is on line 114
+src/EditCompany.java:114:	The String literal "root" appears 8 times in this file; the first occurrence is on line 114
+src/EditCompany.java:115:	Local variable 'query3' could be declared final
+src/EditCompany.java:116:	Local variable 'pst3' could be declared final
+src/EditCompany.java:116:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:118:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:120:	Local variable 'audioInputStream' could be declared final
+src/EditCompany.java:120:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:120:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:121:	Local variable 'clip' could be declared final
+src/EditCompany.java:122:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:123:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:124:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:124:	Avoid empty catch blocks
+src/EditCompany.java:124:	Avoid empty catch blocks
+src/EditCompany.java:130:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:135:	Ensure that resources like this java.sql.Connection object are closed after use
+src/EditCompany.java:135:	Local variable 'connection' could be declared final
+src/EditCompany.java:136:	Do not add empty strings
+src/EditCompany.java:136:	Local variable 'query2' could be declared final
+src/EditCompany.java:136:	The String literal "SELECT name,surname,salary,phone FROM " appears 4 times in this file; the first occurrence is on line 136
+src/EditCompany.java:137:	Local variable 'pst2' could be declared final
+src/EditCompany.java:137:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:138:	Ensure that resources like this ResultSet object are closed after use
+src/EditCompany.java:138:	Local variable 'rs2' could be declared final
+src/EditCompany.java:138:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:139:	Local variable 'DLM2' could be declared final
+src/EditCompany.java:140:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:141:	Found 'DD'-anomaly for variable 'hrcat' (lines '141'-'142').
+src/EditCompany.java:141:	Found 'DD'-anomaly for variable 'hrcat' (lines '141'-'142').
+src/EditCompany.java:141:	Found 'DD'-anomaly for variable 'hrcat' (lines '141'-'142').
+src/EditCompany.java:141:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:141:	The String literal "name" appears 4 times in this file; the first occurrence is on line 141
+src/EditCompany.java:142:	Found 'DD'-anomaly for variable 'hrcat' (lines '142'-'143').
+src/EditCompany.java:142:	Found 'DD'-anomaly for variable 'hrcat' (lines '142'-'143').
+src/EditCompany.java:142:	Found 'DD'-anomaly for variable 'hrcat' (lines '142'-'143').
+src/EditCompany.java:142:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:142:	The String literal "surname" appears 4 times in this file; the first occurrence is on line 142
+src/EditCompany.java:143:	Found 'DD'-anomaly for variable 'hrcat' (lines '143'-'144').
+src/EditCompany.java:143:	Found 'DD'-anomaly for variable 'hrcat' (lines '143'-'144').
+src/EditCompany.java:143:	Found 'DD'-anomaly for variable 'hrcat' (lines '143'-'144').
+src/EditCompany.java:143:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:143:	The String literal "salary" appears 4 times in this file; the first occurrence is on line 143
+src/EditCompany.java:144:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:144:	The String literal "phone" appears 4 times in this file; the first occurrence is on line 144
+src/EditCompany.java:146:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:147:	Found 'DD'-anomaly for variable 'theseishr' (lines '147'-'147').
+src/EditCompany.java:147:	Found 'DD'-anomaly for variable 'theseishr' (lines '147'-'147').
+src/EditCompany.java:147:	Found 'DD'-anomaly for variable 'theseishr' (lines '147'-'147').
+src/EditCompany.java:147:	Found 'DD'-anomaly for variable 'theseishr' (lines '147'-'218').
+src/EditCompany.java:147:	Found 'DD'-anomaly for variable 'theseishr' (lines '147'-'218').
+src/EditCompany.java:147:	Found 'DD'-anomaly for variable 'theseishr' (lines '147'-'218').
+src/EditCompany.java:147:	Found 'DD'-anomaly for variable 'theseishr' (lines '147'-'336').
+src/EditCompany.java:147:	Found 'DD'-anomaly for variable 'theseishr' (lines '147'-'336').
+src/EditCompany.java:147:	Found 'DD'-anomaly for variable 'theseishr' (lines '147'-'407').
+src/EditCompany.java:147:	Found 'DD'-anomaly for variable 'theseishr' (lines '147'-'407').
+src/EditCompany.java:147:	Found 'DU'-anomaly for variable 'theseishr' (lines '147'-'479').
+src/EditCompany.java:147:	Found 'DU'-anomaly for variable 'theseishr' (lines '147'-'479').
+src/EditCompany.java:151:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:152:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:153:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:163:	Local variable 'RateLogoutBTN' could be declared final
+src/EditCompany.java:164:	Local variable 'img' could be declared final
+src/EditCompany.java:168:	Parameter 'arg0' is not assigned and could be declared final
+src/EditCompany.java:168:	publicMethodCommentRequirement Required
+src/EditCompany.java:175:	Local variable 'loadcompaniesBTN' could be declared final
+src/EditCompany.java:176:	Local variable 'img1' could be declared final
+src/EditCompany.java:183:	The String literal "Times New Roman" appears 11 times in this file; the first occurrence is on line 183
+src/EditCompany.java:200:	Local variable 'btnNewButton' could be declared final
+src/EditCompany.java:203:	Avoid variables with short names like e
+src/EditCompany.java:203:	Parameter 'e' is not assigned and could be declared final
+src/EditCompany.java:203:	publicMethodCommentRequirement Required
+src/EditCompany.java:206:	Ensure that resources like this java.sql.Connection object are closed after use
+src/EditCompany.java:206:	Local variable 'connection' could be declared final
+src/EditCompany.java:207:	Do not add empty strings
+src/EditCompany.java:207:	Local variable 'query2' could be declared final
+src/EditCompany.java:208:	Local variable 'pst2' could be declared final
+src/EditCompany.java:208:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:209:	Ensure that resources like this ResultSet object are closed after use
+src/EditCompany.java:209:	Local variable 'rs2' could be declared final
+src/EditCompany.java:209:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:210:	Local variable 'DLM2' could be declared final
+src/EditCompany.java:211:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:212:	Found 'DD'-anomaly for variable 'hrcat' (lines '212'-'213').
+src/EditCompany.java:212:	Found 'DD'-anomaly for variable 'hrcat' (lines '212'-'213').
+src/EditCompany.java:212:	Found 'DD'-anomaly for variable 'hrcat' (lines '212'-'213').
+src/EditCompany.java:212:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:213:	Found 'DD'-anomaly for variable 'hrcat' (lines '213'-'214').
+src/EditCompany.java:213:	Found 'DD'-anomaly for variable 'hrcat' (lines '213'-'214').
+src/EditCompany.java:213:	Found 'DD'-anomaly for variable 'hrcat' (lines '213'-'214').
+src/EditCompany.java:213:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:214:	Found 'DD'-anomaly for variable 'hrcat' (lines '214'-'215').
+src/EditCompany.java:214:	Found 'DD'-anomaly for variable 'hrcat' (lines '214'-'215').
+src/EditCompany.java:214:	Found 'DD'-anomaly for variable 'hrcat' (lines '214'-'215').
+src/EditCompany.java:214:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:215:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:217:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:218:	Found 'DD'-anomaly for variable 'theseishr' (lines '218'-'218').
+src/EditCompany.java:218:	Found 'DD'-anomaly for variable 'theseishr' (lines '218'-'218').
+src/EditCompany.java:218:	Found 'DD'-anomaly for variable 'theseishr' (lines '218'-'218').
+src/EditCompany.java:218:	Found 'DD'-anomaly for variable 'theseishr' (lines '218'-'336').
+src/EditCompany.java:218:	Found 'DD'-anomaly for variable 'theseishr' (lines '218'-'336').
+src/EditCompany.java:218:	Found 'DD'-anomaly for variable 'theseishr' (lines '218'-'407').
+src/EditCompany.java:218:	Found 'DD'-anomaly for variable 'theseishr' (lines '218'-'407').
+src/EditCompany.java:218:	Found 'DU'-anomaly for variable 'theseishr' (lines '218'-'479').
+src/EditCompany.java:218:	Found 'DU'-anomaly for variable 'theseishr' (lines '218'-'479').
+src/EditCompany.java:222:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:223:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:224:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:226:	Local variable 'audioInputStream' could be declared final
+src/EditCompany.java:226:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:226:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:227:	Local variable 'clip' could be declared final
+src/EditCompany.java:228:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:229:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:230:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:230:	Avoid empty catch blocks
+src/EditCompany.java:230:	Avoid empty catch blocks
+src/EditCompany.java:266:	Local variable 'label' could be declared final
+src/EditCompany.java:271:	Local variable 'label_1' could be declared final
+src/EditCompany.java:276:	Local variable 'label_2' could be declared final
+src/EditCompany.java:281:	Local variable 'label_3' could be declared final
+src/EditCompany.java:286:	Local variable 'addButton' could be declared final
+src/EditCompany.java:287:	Local variable 'img3' could be declared final
+src/EditCompany.java:290:	Parameter 'arg0' is not assigned and could be declared final
+src/EditCompany.java:290:	publicMethodCommentRequirement Required
+src/EditCompany.java:292:	Local variable 'name' could be declared final
+src/EditCompany.java:293:	Local variable 'surname' could be declared final
+src/EditCompany.java:294:	Local variable 'salary' could be declared final
+src/EditCompany.java:295:	Local variable 'phone' could be declared final
+src/EditCompany.java:297:	Ensure that resources like this java.sql.Connection object are closed after use
+src/EditCompany.java:297:	Local variable 'connection' could be declared final
+src/EditCompany.java:298:	Local variable 'query4' could be declared final
+src/EditCompany.java:299:	Local variable 'pst4' could be declared final
+src/EditCompany.java:299:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:300:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:301:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:303:	Local variable 'audioInputStream' could be declared final
+src/EditCompany.java:303:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:303:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:304:	Local variable 'clip' could be declared final
+src/EditCompany.java:305:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:306:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:307:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:307:	Avoid empty catch blocks
+src/EditCompany.java:307:	Avoid empty catch blocks
+src/EditCompany.java:313:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:315:	Local variable 'audioInputStream' could be declared final
+src/EditCompany.java:315:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:315:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:316:	Local variable 'clip' could be declared final
+src/EditCompany.java:317:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:318:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:319:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:319:	Avoid empty catch blocks
+src/EditCompany.java:319:	Avoid empty catch blocks
+src/EditCompany.java:324:	Ensure that resources like this java.sql.Connection object are closed after use
+src/EditCompany.java:324:	Local variable 'connection' could be declared final
+src/EditCompany.java:325:	Do not add empty strings
+src/EditCompany.java:325:	Local variable 'query2' could be declared final
+src/EditCompany.java:326:	Local variable 'pst2' could be declared final
+src/EditCompany.java:326:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:327:	Ensure that resources like this ResultSet object are closed after use
+src/EditCompany.java:327:	Local variable 'rs2' could be declared final
+src/EditCompany.java:327:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:328:	Local variable 'DLM2' could be declared final
+src/EditCompany.java:329:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:330:	Found 'DD'-anomaly for variable 'hrcat' (lines '330'-'331').
+src/EditCompany.java:330:	Found 'DD'-anomaly for variable 'hrcat' (lines '330'-'331').
+src/EditCompany.java:330:	Found 'DD'-anomaly for variable 'hrcat' (lines '330'-'331').
+src/EditCompany.java:330:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:331:	Found 'DD'-anomaly for variable 'hrcat' (lines '331'-'332').
+src/EditCompany.java:331:	Found 'DD'-anomaly for variable 'hrcat' (lines '331'-'332').
+src/EditCompany.java:331:	Found 'DD'-anomaly for variable 'hrcat' (lines '331'-'332').
+src/EditCompany.java:331:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:332:	Found 'DD'-anomaly for variable 'hrcat' (lines '332'-'333').
+src/EditCompany.java:332:	Found 'DD'-anomaly for variable 'hrcat' (lines '332'-'333').
+src/EditCompany.java:332:	Found 'DD'-anomaly for variable 'hrcat' (lines '332'-'333').
+src/EditCompany.java:332:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:333:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:335:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:336:	Found 'DD'-anomaly for variable 'theseishr' (lines '336'-'336').
+src/EditCompany.java:336:	Found 'DD'-anomaly for variable 'theseishr' (lines '336'-'336').
+src/EditCompany.java:336:	Found 'DD'-anomaly for variable 'theseishr' (lines '336'-'407').
+src/EditCompany.java:336:	Found 'DD'-anomaly for variable 'theseishr' (lines '336'-'407').
+src/EditCompany.java:336:	Found 'DU'-anomaly for variable 'theseishr' (lines '336'-'479').
+src/EditCompany.java:336:	Found 'DU'-anomaly for variable 'theseishr' (lines '336'-'479').
+src/EditCompany.java:340:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:341:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:342:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:344:	Local variable 'audioInputStream' could be declared final
+src/EditCompany.java:344:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:344:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:345:	Local variable 'clip' could be declared final
+src/EditCompany.java:346:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:347:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:348:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:348:	Avoid empty catch blocks
+src/EditCompany.java:348:	Avoid empty catch blocks
+src/EditCompany.java:358:	Local variable 'img4' could be declared final
+src/EditCompany.java:361:	Avoid variables with short names like e
+src/EditCompany.java:361:	Parameter 'e' is not assigned and could be declared final
+src/EditCompany.java:361:	publicMethodCommentRequirement Required
+src/EditCompany.java:364:	Found 'DU'-anomaly for variable 'splited' (lines '364'-'479').
+src/EditCompany.java:364:	Found 'DU'-anomaly for variable 'splited' (lines '364'-'479').
+src/EditCompany.java:364:	Local variable 'splited' could be declared final
+src/EditCompany.java:366:	Local variable 'audioInputStream' could be declared final
+src/EditCompany.java:366:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:366:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:367:	Local variable 'clip' could be declared final
+src/EditCompany.java:368:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:369:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:370:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:370:	Avoid empty catch blocks
+src/EditCompany.java:370:	Avoid empty catch blocks
+src/EditCompany.java:371:	Local variable 'action' could be declared final
+src/EditCompany.java:374:	Ensure that resources like this java.sql.Connection object are closed after use
+src/EditCompany.java:374:	Local variable 'connection' could be declared final
+src/EditCompany.java:375:	Local variable 'query5' could be declared final
+src/EditCompany.java:376:	Local variable 'pst5' could be declared final
+src/EditCompany.java:376:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:377:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:378:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:380:	Local variable 'audioInputStream' could be declared final
+src/EditCompany.java:380:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:380:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:381:	Local variable 'clip' could be declared final
+src/EditCompany.java:382:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:383:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:384:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:384:	Avoid empty catch blocks
+src/EditCompany.java:384:	Avoid empty catch blocks
+src/EditCompany.java:390:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:395:	Ensure that resources like this java.sql.Connection object are closed after use
+src/EditCompany.java:395:	Local variable 'connection' could be declared final
+src/EditCompany.java:396:	Do not add empty strings
+src/EditCompany.java:396:	Local variable 'query2' could be declared final
+src/EditCompany.java:397:	Local variable 'pst2' could be declared final
+src/EditCompany.java:397:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:398:	Ensure that resources like this ResultSet object are closed after use
+src/EditCompany.java:398:	Local variable 'rs2' could be declared final
+src/EditCompany.java:398:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:399:	Local variable 'DLM2' could be declared final
+src/EditCompany.java:400:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:401:	Found 'DD'-anomaly for variable 'hrcat' (lines '401'-'402').
+src/EditCompany.java:401:	Found 'DD'-anomaly for variable 'hrcat' (lines '401'-'402').
+src/EditCompany.java:401:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:402:	Found 'DD'-anomaly for variable 'hrcat' (lines '402'-'403').
+src/EditCompany.java:402:	Found 'DD'-anomaly for variable 'hrcat' (lines '402'-'403').
+src/EditCompany.java:402:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:403:	Found 'DD'-anomaly for variable 'hrcat' (lines '403'-'404').
+src/EditCompany.java:403:	Found 'DD'-anomaly for variable 'hrcat' (lines '403'-'404').
+src/EditCompany.java:403:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:404:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:406:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:407:	Found 'DD'-anomaly for variable 'theseishr' (lines '407'-'407').
+src/EditCompany.java:407:	Found 'DD'-anomaly for variable 'theseishr' (lines '407'-'407').
+src/EditCompany.java:407:	Found 'DU'-anomaly for variable 'theseishr' (lines '407'-'479').
+src/EditCompany.java:407:	Found 'DU'-anomaly for variable 'theseishr' (lines '407'-'479').
+src/EditCompany.java:411:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:412:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:413:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/EditCompany.java:416:	Avoid empty if statements
+src/EditCompany.java:416:	Avoid empty if statements
+src/EditCompany.java:433:	Local variable 'label_4' could be declared final
+src/EditCompany.java:438:	Local variable 'label_5' could be declared final
+src/EditCompany.java:448:	Local variable 'background' could be declared final
+src/EditCompany.java:449:	Local variable 'backg' could be declared final
+src/EditCompany.java:456:	Parameter 'arg0' is not assigned and could be declared final
+src/EditCompany.java:456:	publicMethodCommentRequirement Required
+src/EditCompany.java:458:	Ensure that resources like this java.sql.Connection object are closed after use
+src/EditCompany.java:458:	Local variable 'connection' could be declared final
+src/EditCompany.java:459:	Local variable 'query1' could be declared final
+src/EditCompany.java:460:	Local variable 'pst1' could be declared final
+src/EditCompany.java:460:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:461:	Avoid variables with short names like rs
+src/EditCompany.java:461:	Ensure that resources like this ResultSet object are closed after use
+src/EditCompany.java:461:	Local variable 'rs' could be declared final
+src/EditCompany.java:461:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:462:	Local variable 'DLM' could be declared final
+src/EditCompany.java:464:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:465:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:466:	Potential violation of Law of Demeter (method chain calls)
+src/EditCompany.java:466:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:467:	Found 'DD'-anomaly for variable 'theseiscp' (lines '467'-'467').
+src/EditCompany.java:467:	Found 'DD'-anomaly for variable 'theseiscp' (lines '467'-'467').
+src/EditCompany.java:467:	Found 'DU'-anomaly for variable 'theseiscp' (lines '467'-'479').
+src/EditCompany.java:467:	Found 'DU'-anomaly for variable 'theseiscp' (lines '467'-'479').
+src/EditCompany.java:471:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:472:	Potential violation of Law of Demeter (object not created locally)
+src/EditCompany.java:473:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HRLogin.java:30:	All classes and interfaces must belong to a named package
+src/HRLogin.java:30:	The class 'HRLogin' has a Cyclomatic Complexity of 8 (Highest = 11).
+src/HRLogin.java:30:	The class 'HRLogin' has a Modified Cyclomatic Complexity of 8 (Highest = 11).
+src/HRLogin.java:30:	The class 'HRLogin' has a Standard Cyclomatic Complexity of 8 (Highest = 11).
+src/HRLogin.java:30:	headerCommentRequirement Required
+src/HRLogin.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/HRLogin.java:36:	Perhaps 'contentPane' could be replaced by a local variable.
+src/HRLogin.java:36:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/HRLogin.java:36:	fieldCommentRequirement Required
+src/HRLogin.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/HRLogin.java:37:	Private field 'HRTextField' could be made final; it is only initialized in the declaration or constructor.
+src/HRLogin.java:37:	fieldCommentRequirement Required
+src/HRLogin.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/HRLogin.java:38:	Private field 'HRPasswordField' could be made final; it is only initialized in the declaration or constructor.
+src/HRLogin.java:38:	fieldCommentRequirement Required
+src/HRLogin.java:43:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/HRLogin.java:43:	Parameter 'args' is not assigned and could be declared final
+src/HRLogin.java:44:	To be compliant to J2EE, a webapp should not use any thread.
+src/HRLogin.java:45:	publicMethodCommentRequirement Required
+src/HRLogin.java:47:	Local variable 'JFrame' could be declared final
+src/HRLogin.java:49:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HRLogin.java:50:	Avoid printStackTrace(); use a logger call instead.
+src/HRLogin.java:60:	It is a good practice to call super() in a constructor
+src/HRLogin.java:60:	The constructor 'HRLogin' has a Cyclomatic Complexity of 11.
+src/HRLogin.java:60:	The constructor 'HRLogin' has a Modified Cyclomatic Complexity of 11.
+src/HRLogin.java:60:	The constructor 'HRLogin' has a Standard Cyclomatic Complexity of 11.
+src/HRLogin.java:70:	Local variable 'LoginHRBTN' could be declared final
+src/HRLogin.java:71:	Local variable 'img' could be declared final
+src/HRLogin.java:76:	Local variable 'LabelUsernameHR' could be declared final
+src/HRLogin.java:82:	The String literal "Tahoma" appears 4 times in this file; the first occurrence is on line 82
+src/HRLogin.java:87:	Local variable 'LabelPasswordHR' could be declared final
+src/HRLogin.java:100:	Avoid variables with short names like e
+src/HRLogin.java:100:	Parameter 'e' is not assigned and could be declared final
+src/HRLogin.java:100:	publicMethodCommentRequirement Required
+src/HRLogin.java:102:	Local variable 'query1' could be declared final
+src/HRLogin.java:103:	Ensure that resources like this java.sql.Connection object are closed after use
+src/HRLogin.java:103:	Local variable 'connection' could be declared final
+src/HRLogin.java:104:	Local variable 'pst1' could be declared final
+src/HRLogin.java:104:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:105:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:106:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:108:	Avoid variables with short names like rs
+src/HRLogin.java:108:	Ensure that resources like this ResultSet object are closed after use
+src/HRLogin.java:108:	Local variable 'rs' could be declared final
+src/HRLogin.java:108:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:109:	Found 'DD'-anomaly for variable 'count' (lines '109'-'111').
+src/HRLogin.java:109:	Found 'DD'-anomaly for variable 'count' (lines '109'-'111').
+src/HRLogin.java:110:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:111:	Found 'DD'-anomaly for variable 'count' (lines '111'-'111').
+src/HRLogin.java:111:	Found 'DD'-anomaly for variable 'count' (lines '111'-'111').
+src/HRLogin.java:113:	Avoid using Literals in Conditional Statements
+src/HRLogin.java:116:	Local variable 'audioInputStream' could be declared final
+src/HRLogin.java:116:	Potential violation of Law of Demeter (method chain calls)
+src/HRLogin.java:116:	Potential violation of Law of Demeter (method chain calls)
+src/HRLogin.java:117:	Local variable 'clip' could be declared final
+src/HRLogin.java:118:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:119:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:120:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HRLogin.java:120:	Avoid empty catch blocks
+src/HRLogin.java:120:	Avoid empty catch blocks
+src/HRLogin.java:121:	Avoid variables with short names like hw
+src/HRLogin.java:121:	Local variable 'hw' could be declared final
+src/HRLogin.java:125:	Avoid using Literals in Conditional Statements
+src/HRLogin.java:127:	Local variable 'audioInputStream' could be declared final
+src/HRLogin.java:127:	Potential violation of Law of Demeter (method chain calls)
+src/HRLogin.java:127:	Potential violation of Law of Demeter (method chain calls)
+src/HRLogin.java:128:	Local variable 'clip' could be declared final
+src/HRLogin.java:129:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:130:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:131:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HRLogin.java:131:	Avoid empty catch blocks
+src/HRLogin.java:131:	Avoid empty catch blocks
+src/HRLogin.java:136:	Local variable 'audioInputStream' could be declared final
+src/HRLogin.java:136:	Potential violation of Law of Demeter (method chain calls)
+src/HRLogin.java:136:	Potential violation of Law of Demeter (method chain calls)
+src/HRLogin.java:137:	Local variable 'clip' could be declared final
+src/HRLogin.java:138:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:139:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:140:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HRLogin.java:140:	Avoid empty catch blocks
+src/HRLogin.java:140:	Avoid empty catch blocks
+src/HRLogin.java:146:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:147:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:148:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:149:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HRLogin.java:151:	Local variable 'audioInputStream' could be declared final
+src/HRLogin.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/HRLogin.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/HRLogin.java:152:	Local variable 'clip' could be declared final
+src/HRLogin.java:153:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:154:	Potential violation of Law of Demeter (object not created locally)
+src/HRLogin.java:155:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HRLogin.java:155:	Avoid empty catch blocks
+src/HRLogin.java:155:	Avoid empty catch blocks
+src/HRLogin.java:163:	Local variable 'CancelHR' could be declared final
+src/HRLogin.java:164:	Local variable 'img2' could be declared final
+src/HRLogin.java:168:	Avoid variables with short names like e
+src/HRLogin.java:168:	Parameter 'e' is not assigned and could be declared final
+src/HRLogin.java:168:	publicMethodCommentRequirement Required
+src/HRLogin.java:175:	Local variable 'lblNewLabel' could be declared final
+src/HRLogin.java:176:	Local variable 'img1' could be declared final
+src/HRLogin.java:181:	Local variable 'back' could be declared final
+src/HRLogin.java:182:	Local variable 'backg' could be declared final
+src/HRwork.java:31:	All classes and interfaces must belong to a named package
+src/HRwork.java:31:	The class 'HRwork' has a Cyclomatic Complexity of 8 (Highest = 12).
+src/HRwork.java:31:	The class 'HRwork' has a Modified Cyclomatic Complexity of 8 (Highest = 12).
+src/HRwork.java:31:	The class 'HRwork' has a Standard Cyclomatic Complexity of 8 (Highest = 12).
+src/HRwork.java:31:	headerCommentRequirement Required
+src/HRwork.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/HRwork.java:37:	Perhaps 'contentPane' could be replaced by a local variable.
+src/HRwork.java:37:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/HRwork.java:37:	fieldCommentRequirement Required
+src/HRwork.java:42:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/HRwork.java:42:	Parameter 'args' is not assigned and could be declared final
+src/HRwork.java:43:	To be compliant to J2EE, a webapp should not use any thread.
+src/HRwork.java:44:	publicMethodCommentRequirement Required
+src/HRwork.java:46:	Local variable 'frame' could be declared final
+src/HRwork.java:48:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HRwork.java:49:	Avoid printStackTrace(); use a logger call instead.
+src/HRwork.java:58:	It is a good practice to call super() in a constructor
+src/HRwork.java:58:	The constructor 'HRwork' has a Cyclomatic Complexity of 12.
+src/HRwork.java:58:	The constructor 'HRwork' has a Modified Cyclomatic Complexity of 12.
+src/HRwork.java:58:	The constructor 'HRwork' has a Standard Cyclomatic Complexity of 12.
+src/HRwork.java:71:	Local variable 'EditCompBTN' could be declared final
+src/HRwork.java:72:	The String literal "Tahoma" appears 4 times in this file; the first occurrence is on line 72
+src/HRwork.java:74:	Parameter 'arg0' is not assigned and could be declared final
+src/HRwork.java:74:	publicMethodCommentRequirement Required
+src/HRwork.java:75:	Avoid variables with short names like ec
+src/HRwork.java:80:	Local variable 'audioInputStream' could be declared final
+src/HRwork.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/HRwork.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/HRwork.java:81:	Local variable 'clip' could be declared final
+src/HRwork.java:82:	Potential violation of Law of Demeter (object not created locally)
+src/HRwork.java:83:	Potential violation of Law of Demeter (object not created locally)
+src/HRwork.java:84:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HRwork.java:84:	Avoid empty catch blocks
+src/HRwork.java:84:	Avoid empty catch blocks
+src/HRwork.java:90:	Local variable 'audioInputStream' could be declared final
+src/HRwork.java:90:	Potential violation of Law of Demeter (method chain calls)
+src/HRwork.java:90:	Potential violation of Law of Demeter (method chain calls)
+src/HRwork.java:91:	Local variable 'clip' could be declared final
+src/HRwork.java:92:	Potential violation of Law of Demeter (object not created locally)
+src/HRwork.java:93:	Potential violation of Law of Demeter (object not created locally)
+src/HRwork.java:94:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HRwork.java:94:	Avoid empty catch blocks
+src/HRwork.java:94:	Avoid empty catch blocks
+src/HRwork.java:95:	Avoid printStackTrace(); use a logger call instead.
+src/HRwork.java:103:	Local variable 'DeleteCompBTN' could be declared final
+src/HRwork.java:106:	Parameter 'arg0' is not assigned and could be declared final
+src/HRwork.java:106:	publicMethodCommentRequirement Required
+src/HRwork.java:107:	Avoid variables with short names like dc
+src/HRwork.java:107:	Local variable 'dc' could be declared final
+src/HRwork.java:114:	Local variable 'LogoutBTN' could be declared final
+src/HRwork.java:115:	Local variable 'img' could be declared final
+src/HRwork.java:119:	Parameter 'arg0' is not assigned and could be declared final
+src/HRwork.java:119:	publicMethodCommentRequirement Required
+src/HRwork.java:121:	Local variable 'audioInputStream' could be declared final
+src/HRwork.java:121:	Potential violation of Law of Demeter (method chain calls)
+src/HRwork.java:121:	Potential violation of Law of Demeter (method chain calls)
+src/HRwork.java:122:	Local variable 'clip' could be declared final
+src/HRwork.java:123:	Potential violation of Law of Demeter (object not created locally)
+src/HRwork.java:124:	Potential violation of Law of Demeter (object not created locally)
+src/HRwork.java:125:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HRwork.java:125:	Avoid empty catch blocks
+src/HRwork.java:125:	Avoid empty catch blocks
+src/HRwork.java:132:	Local variable 'CreateCompBTN' could be declared final
+src/HRwork.java:135:	Avoid variables with short names like e
+src/HRwork.java:135:	Parameter 'e' is not assigned and could be declared final
+src/HRwork.java:135:	publicMethodCommentRequirement Required
+src/HRwork.java:136:	Avoid variables with short names like cc
+src/HRwork.java:141:	Local variable 'audioInputStream' could be declared final
+src/HRwork.java:141:	Potential violation of Law of Demeter (method chain calls)
+src/HRwork.java:141:	Potential violation of Law of Demeter (method chain calls)
+src/HRwork.java:142:	Local variable 'clip' could be declared final
+src/HRwork.java:143:	Potential violation of Law of Demeter (object not created locally)
+src/HRwork.java:144:	Potential violation of Law of Demeter (object not created locally)
+src/HRwork.java:145:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HRwork.java:145:	Avoid empty catch blocks
+src/HRwork.java:145:	Avoid empty catch blocks
+src/HRwork.java:151:	Local variable 'audioInputStream' could be declared final
+src/HRwork.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/HRwork.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/HRwork.java:152:	Local variable 'clip' could be declared final
+src/HRwork.java:153:	Potential violation of Law of Demeter (object not created locally)
+src/HRwork.java:154:	Potential violation of Law of Demeter (object not created locally)
+src/HRwork.java:155:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HRwork.java:155:	Avoid empty catch blocks
+src/HRwork.java:155:	Avoid empty catch blocks
+src/HRwork.java:156:	Avoid printStackTrace(); use a logger call instead.
+src/HRwork.java:164:	Local variable 'lblNewLabel' could be declared final
+src/HRwork.java:165:	Local variable 'img1' could be declared final
+src/HRwork.java:170:	Local variable 'lblNewLabel_1' could be declared final
+src/HRwork.java:171:	Local variable 'img2' could be declared final
+src/HRwork.java:176:	Local variable 'label' could be declared final
+src/HRwork.java:177:	Local variable 'backg' could be declared final
+src/RateWindow.java:39:	All classes and interfaces must belong to a named package
+src/RateWindow.java:39:	The class 'RateWindow' has a Cyclomatic Complexity of 8 (Highest = 18).
+src/RateWindow.java:39:	The class 'RateWindow' has a Modified Cyclomatic Complexity of 8 (Highest = 18).
+src/RateWindow.java:39:	The class 'RateWindow' has a Standard Cyclomatic Complexity of 8 (Highest = 18).
+src/RateWindow.java:39:	headerCommentRequirement Required
+src/RateWindow.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/RateWindow.java:45:	Private field 'companylist' could be made final; it is only initialized in the declaration or constructor.
+src/RateWindow.java:45:	fieldCommentRequirement Required
+src/RateWindow.java:46:	Avoid using redundant field initializer for 'i'
+src/RateWindow.java:46:	Avoid variables with short names like i
+src/RateWindow.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/RateWindow.java:46:	Use explicit scoping instead of the default package private level
+src/RateWindow.java:46:	fieldCommentRequirement Required
+src/RateWindow.java:47:	Avoid using redundant field initializer for 'j'
+src/RateWindow.java:47:	Avoid variables with short names like j
+src/RateWindow.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/RateWindow.java:47:	Use explicit scoping instead of the default package private level
+src/RateWindow.java:47:	fieldCommentRequirement Required
+src/RateWindow.java:48:	Avoid using redundant field initializer for 'company'
+src/RateWindow.java:48:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/RateWindow.java:48:	Use explicit scoping instead of the default package private level
+src/RateWindow.java:48:	fieldCommentRequirement Required
+src/RateWindow.java:49:	Avoid using redundant field initializer for 'hr'
+src/RateWindow.java:49:	Avoid variables with short names like hr
+src/RateWindow.java:49:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/RateWindow.java:49:	Use explicit scoping instead of the default package private level
+src/RateWindow.java:49:	fieldCommentRequirement Required
+src/RateWindow.java:50:	Avoid using redundant field initializer for 'var'
+src/RateWindow.java:50:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/RateWindow.java:50:	Use explicit scoping instead of the default package private level
+src/RateWindow.java:50:	fieldCommentRequirement Required
+src/RateWindow.java:51:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/RateWindow.java:51:	Use explicit scoping instead of the default package private level
+src/RateWindow.java:51:	fieldCommentRequirement Required
+src/RateWindow.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/RateWindow.java:53:	Perhaps 'contentPane' could be replaced by a local variable.
+src/RateWindow.java:53:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/RateWindow.java:53:	fieldCommentRequirement Required
+src/RateWindow.java:54:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/RateWindow.java:54:	Perhaps 'labelcompany' could be replaced by a local variable.
+src/RateWindow.java:54:	Private field 'labelcompany' could be made final; it is only initialized in the declaration or constructor.
+src/RateWindow.java:54:	fieldCommentRequirement Required
+src/RateWindow.java:55:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/RateWindow.java:55:	Private field 'hrlist' could be made final; it is only initialized in the declaration or constructor.
+src/RateWindow.java:55:	fieldCommentRequirement Required
+src/RateWindow.java:56:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/RateWindow.java:56:	Perhaps 'lblHr' could be replaced by a local variable.
+src/RateWindow.java:56:	Private field 'lblHr' could be made final; it is only initialized in the declaration or constructor.
+src/RateWindow.java:56:	fieldCommentRequirement Required
+src/RateWindow.java:57:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/RateWindow.java:57:	Perhaps 'scrollPane' could be replaced by a local variable.
+src/RateWindow.java:57:	Private field 'scrollPane' could be made final; it is only initialized in the declaration or constructor.
+src/RateWindow.java:57:	fieldCommentRequirement Required
+src/RateWindow.java:62:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/RateWindow.java:62:	Parameter 'args' is not assigned and could be declared final
+src/RateWindow.java:63:	To be compliant to J2EE, a webapp should not use any thread.
+src/RateWindow.java:64:	publicMethodCommentRequirement Required
+src/RateWindow.java:66:	Local variable 'frame' could be declared final
+src/RateWindow.java:68:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/RateWindow.java:69:	Avoid printStackTrace(); use a logger call instead.
+src/RateWindow.java:79:	It is a good practice to call super() in a constructor
+src/RateWindow.java:79:	The constructor 'RateWindow' has a Cyclomatic Complexity of 18.
+src/RateWindow.java:79:	The constructor 'RateWindow' has a Modified Cyclomatic Complexity of 18.
+src/RateWindow.java:79:	The constructor 'RateWindow' has a Standard Cyclomatic Complexity of 18.
+src/RateWindow.java:79:	The constructor with 0 parameters has an NCSS line count of 140
+src/RateWindow.java:83:	Found 'DD'-anomaly for variable 'companieslist' (lines '83'-'362').
+src/RateWindow.java:83:	Found 'DD'-anomaly for variable 'companieslist' (lines '83'-'362').
+src/RateWindow.java:83:	Found 'DD'-anomaly for variable 'companieslist' (lines '83'-'362').
+src/RateWindow.java:83:	Found 'DD'-anomaly for variable 'companieslist' (lines '83'-'362').
+src/RateWindow.java:83:	Found 'DU'-anomaly for variable 'companieslist' (lines '83'-'383').
+src/RateWindow.java:83:	Found 'DU'-anomaly for variable 'companieslist' (lines '83'-'383').
+src/RateWindow.java:83:	Found 'DU'-anomaly for variable 'companieslist' (lines '83'-'383').
+src/RateWindow.java:83:	Found 'DU'-anomaly for variable 'companieslist' (lines '83'-'383').
+src/RateWindow.java:84:	Found 'DD'-anomaly for variable 'theseiscp' (lines '84'-'364').
+src/RateWindow.java:84:	Found 'DD'-anomaly for variable 'theseiscp' (lines '84'-'364').
+src/RateWindow.java:84:	Found 'DD'-anomaly for variable 'theseiscp' (lines '84'-'364').
+src/RateWindow.java:84:	Found 'DD'-anomaly for variable 'theseiscp' (lines '84'-'364').
+src/RateWindow.java:84:	Found 'DU'-anomaly for variable 'theseiscp' (lines '84'-'383').
+src/RateWindow.java:84:	Found 'DU'-anomaly for variable 'theseiscp' (lines '84'-'383').
+src/RateWindow.java:84:	Found 'DU'-anomaly for variable 'theseiscp' (lines '84'-'383').
+src/RateWindow.java:84:	Found 'DU'-anomaly for variable 'theseiscp' (lines '84'-'383').
+src/RateWindow.java:85:	Found 'DD'-anomaly for variable 'theseishr' (lines '85'-'143').
+src/RateWindow.java:85:	Found 'DD'-anomaly for variable 'theseishr' (lines '85'-'143').
+src/RateWindow.java:85:	Found 'DD'-anomaly for variable 'theseishr' (lines '85'-'143').
+src/RateWindow.java:85:	Found 'DD'-anomaly for variable 'theseishr' (lines '85'-'143').
+src/RateWindow.java:85:	Found 'DD'-anomaly for variable 'theseishr' (lines '85'-'322').
+src/RateWindow.java:85:	Found 'DD'-anomaly for variable 'theseishr' (lines '85'-'322').
+src/RateWindow.java:85:	Found 'DD'-anomaly for variable 'theseishr' (lines '85'-'322').
+src/RateWindow.java:85:	Found 'DD'-anomaly for variable 'theseishr' (lines '85'-'322').
+src/RateWindow.java:85:	Found 'DU'-anomaly for variable 'theseishr' (lines '85'-'383').
+src/RateWindow.java:85:	Found 'DU'-anomaly for variable 'theseishr' (lines '85'-'383').
+src/RateWindow.java:85:	Found 'DU'-anomaly for variable 'theseishr' (lines '85'-'383').
+src/RateWindow.java:85:	Found 'DU'-anomaly for variable 'theseishr' (lines '85'-'383').
+src/RateWindow.java:86:	Found 'DD'-anomaly for variable 'hrcat' (lines '86'-'137').
+src/RateWindow.java:86:	Found 'DD'-anomaly for variable 'hrcat' (lines '86'-'137').
+src/RateWindow.java:86:	Found 'DD'-anomaly for variable 'hrcat' (lines '86'-'137').
+src/RateWindow.java:86:	Found 'DD'-anomaly for variable 'hrcat' (lines '86'-'137').
+src/RateWindow.java:86:	Found 'DD'-anomaly for variable 'hrcat' (lines '86'-'316').
+src/RateWindow.java:86:	Found 'DD'-anomaly for variable 'hrcat' (lines '86'-'316').
+src/RateWindow.java:86:	Found 'DD'-anomaly for variable 'hrcat' (lines '86'-'316').
+src/RateWindow.java:86:	Found 'DD'-anomaly for variable 'hrcat' (lines '86'-'316').
+src/RateWindow.java:86:	Found 'DU'-anomaly for variable 'hrcat' (lines '86'-'383').
+src/RateWindow.java:86:	Found 'DU'-anomaly for variable 'hrcat' (lines '86'-'383').
+src/RateWindow.java:86:	Found 'DU'-anomaly for variable 'hrcat' (lines '86'-'383').
+src/RateWindow.java:86:	Found 'DU'-anomaly for variable 'hrcat' (lines '86'-'383').
+src/RateWindow.java:95:	Local variable 'RateBTN' could be declared final
+src/RateWindow.java:96:	Local variable 'img' could be declared final
+src/RateWindow.java:98:	The String literal "Tahoma" appears 4 times in this file; the first occurrence is on line 98
+src/RateWindow.java:100:	Avoid variables with short names like e
+src/RateWindow.java:100:	Parameter 'e' is not assigned and could be declared final
+src/RateWindow.java:100:	publicMethodCommentRequirement Required
+src/RateWindow.java:103:	Local variable 'rdb' could be declared final
+src/RateWindow.java:103:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:104:	Local variable 'splited' could be declared final
+src/RateWindow.java:107:	Ensure that resources like this java.sql.Connection object are closed after use
+src/RateWindow.java:107:	Local variable 'connection' could be declared final
+src/RateWindow.java:107:	The String literal "1234" appears 4 times in this file; the first occurrence is on line 107
+src/RateWindow.java:107:	The String literal "jdbc:mysql://83.212.120.62:3306/companies" appears 4 times in this file; the first occurrence is on line 107
+src/RateWindow.java:107:	The String literal "root" appears 4 times in this file; the first occurrence is on line 107
+src/RateWindow.java:108:	Local variable 'query3' could be declared final
+src/RateWindow.java:109:	Local variable 'pst3' could be declared final
+src/RateWindow.java:109:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:110:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:111:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:113:	Local variable 'audioInputStream' could be declared final
+src/RateWindow.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:114:	Local variable 'clip' could be declared final
+src/RateWindow.java:115:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:116:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:117:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/RateWindow.java:117:	Avoid empty catch blocks
+src/RateWindow.java:117:	Avoid empty catch blocks
+src/RateWindow.java:119:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/RateWindow.java:121:	Local variable 'audioInputStream' could be declared final
+src/RateWindow.java:121:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:121:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:121:	The String literal "/error.wav" appears 4 times in this file; the first occurrence is on line 121
+src/RateWindow.java:122:	Local variable 'clip' could be declared final
+src/RateWindow.java:123:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:124:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:125:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/RateWindow.java:125:	Avoid empty catch blocks
+src/RateWindow.java:125:	Avoid empty catch blocks
+src/RateWindow.java:131:	Ensure that resources like this java.sql.Connection object are closed after use
+src/RateWindow.java:131:	Local variable 'connection' could be declared final
+src/RateWindow.java:132:	Do not add empty strings
+src/RateWindow.java:132:	Local variable 'query2' could be declared final
+src/RateWindow.java:133:	Local variable 'pst2' could be declared final
+src/RateWindow.java:133:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:134:	Ensure that resources like this ResultSet object are closed after use
+src/RateWindow.java:134:	Local variable 'rs2' could be declared final
+src/RateWindow.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:135:	Local variable 'DLM2' could be declared final
+src/RateWindow.java:136:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:137:	Found 'DD'-anomaly for variable 'hrcat' (lines '137'-'138').
+src/RateWindow.java:137:	Found 'DD'-anomaly for variable 'hrcat' (lines '137'-'138').
+src/RateWindow.java:137:	Found 'DD'-anomaly for variable 'hrcat' (lines '137'-'138').
+src/RateWindow.java:137:	Found 'DD'-anomaly for variable 'hrcat' (lines '137'-'138').
+src/RateWindow.java:137:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:138:	Found 'DD'-anomaly for variable 'hrcat' (lines '138'-'139').
+src/RateWindow.java:138:	Found 'DD'-anomaly for variable 'hrcat' (lines '138'-'139').
+src/RateWindow.java:138:	Found 'DD'-anomaly for variable 'hrcat' (lines '138'-'139').
+src/RateWindow.java:138:	Found 'DD'-anomaly for variable 'hrcat' (lines '138'-'139').
+src/RateWindow.java:138:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:139:	Found 'DD'-anomaly for variable 'hrcat' (lines '139'-'140').
+src/RateWindow.java:139:	Found 'DD'-anomaly for variable 'hrcat' (lines '139'-'140').
+src/RateWindow.java:139:	Found 'DD'-anomaly for variable 'hrcat' (lines '139'-'140').
+src/RateWindow.java:139:	Found 'DD'-anomaly for variable 'hrcat' (lines '139'-'140').
+src/RateWindow.java:139:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:140:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:142:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:143:	Found 'DD'-anomaly for variable 'theseishr' (lines '143'-'143').
+src/RateWindow.java:143:	Found 'DD'-anomaly for variable 'theseishr' (lines '143'-'143').
+src/RateWindow.java:143:	Found 'DD'-anomaly for variable 'theseishr' (lines '143'-'143').
+src/RateWindow.java:143:	Found 'DD'-anomaly for variable 'theseishr' (lines '143'-'143').
+src/RateWindow.java:143:	Found 'DD'-anomaly for variable 'theseishr' (lines '143'-'322').
+src/RateWindow.java:143:	Found 'DD'-anomaly for variable 'theseishr' (lines '143'-'322').
+src/RateWindow.java:143:	Found 'DD'-anomaly for variable 'theseishr' (lines '143'-'322').
+src/RateWindow.java:143:	Found 'DD'-anomaly for variable 'theseishr' (lines '143'-'322').
+src/RateWindow.java:143:	Found 'DU'-anomaly for variable 'theseishr' (lines '143'-'383').
+src/RateWindow.java:143:	Found 'DU'-anomaly for variable 'theseishr' (lines '143'-'383').
+src/RateWindow.java:143:	Found 'DU'-anomaly for variable 'theseishr' (lines '143'-'383').
+src/RateWindow.java:143:	Found 'DU'-anomaly for variable 'theseishr' (lines '143'-'383').
+src/RateWindow.java:147:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:148:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:149:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/RateWindow.java:151:	Local variable 'audioInputStream' could be declared final
+src/RateWindow.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:152:	Local variable 'clip' could be declared final
+src/RateWindow.java:153:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:154:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:155:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/RateWindow.java:155:	Avoid empty catch blocks
+src/RateWindow.java:155:	Avoid empty catch blocks
+src/RateWindow.java:167:	Local variable 'RateLogoutBTN' could be declared final
+src/RateWindow.java:168:	Local variable 'img1' could be declared final
+src/RateWindow.java:172:	Parameter 'arg0' is not assigned and could be declared final
+src/RateWindow.java:172:	publicMethodCommentRequirement Required
+src/RateWindow.java:174:	Local variable 'audioInputStream' could be declared final
+src/RateWindow.java:174:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:174:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:175:	Local variable 'clip' could be declared final
+src/RateWindow.java:176:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:177:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:178:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/RateWindow.java:178:	Avoid empty catch blocks
+src/RateWindow.java:178:	Avoid empty catch blocks
+src/RateWindow.java:185:	Local variable 'loadcompaniesBTN' could be declared final
+src/RateWindow.java:186:	Local variable 'img2' could be declared final
+src/RateWindow.java:193:	The String literal "Times New Roman" appears 5 times in this file; the first occurrence is on line 193
+src/RateWindow.java:211:	Local variable 'rd1' could be declared final
+src/RateWindow.java:219:	Local variable 'rd2' could be declared final
+src/RateWindow.java:227:	Local variable 'rd3' could be declared final
+src/RateWindow.java:235:	Local variable 'rd4' could be declared final
+src/RateWindow.java:243:	Local variable 'rd5' could be declared final
+src/RateWindow.java:251:	Local variable 'rd6' could be declared final
+src/RateWindow.java:259:	Local variable 'rd7' could be declared final
+src/RateWindow.java:267:	Local variable 'rd8' could be declared final
+src/RateWindow.java:275:	Local variable 'rd9' could be declared final
+src/RateWindow.java:283:	Local variable 'rd10' could be declared final
+src/RateWindow.java:291:	Local variable 'lblNewLabel' could be declared final
+src/RateWindow.java:296:	Local variable 'scrollPane_1' could be declared final
+src/RateWindow.java:304:	Local variable 'btnNewButton' could be declared final
+src/RateWindow.java:307:	Avoid variables with short names like e
+src/RateWindow.java:307:	Parameter 'e' is not assigned and could be declared final
+src/RateWindow.java:307:	publicMethodCommentRequirement Required
+src/RateWindow.java:310:	Ensure that resources like this java.sql.Connection object are closed after use
+src/RateWindow.java:310:	Local variable 'connection' could be declared final
+src/RateWindow.java:311:	Do not add empty strings
+src/RateWindow.java:311:	Local variable 'query2' could be declared final
+src/RateWindow.java:312:	Local variable 'pst2' could be declared final
+src/RateWindow.java:312:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:313:	Ensure that resources like this ResultSet object are closed after use
+src/RateWindow.java:313:	Local variable 'rs2' could be declared final
+src/RateWindow.java:313:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:314:	Local variable 'DLM2' could be declared final
+src/RateWindow.java:315:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:316:	Found 'DD'-anomaly for variable 'hrcat' (lines '316'-'317').
+src/RateWindow.java:316:	Found 'DD'-anomaly for variable 'hrcat' (lines '316'-'317').
+src/RateWindow.java:316:	Found 'DD'-anomaly for variable 'hrcat' (lines '316'-'317').
+src/RateWindow.java:316:	Found 'DD'-anomaly for variable 'hrcat' (lines '316'-'317').
+src/RateWindow.java:316:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:317:	Found 'DD'-anomaly for variable 'hrcat' (lines '317'-'318').
+src/RateWindow.java:317:	Found 'DD'-anomaly for variable 'hrcat' (lines '317'-'318').
+src/RateWindow.java:317:	Found 'DD'-anomaly for variable 'hrcat' (lines '317'-'318').
+src/RateWindow.java:317:	Found 'DD'-anomaly for variable 'hrcat' (lines '317'-'318').
+src/RateWindow.java:317:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:318:	Found 'DD'-anomaly for variable 'hrcat' (lines '318'-'319').
+src/RateWindow.java:318:	Found 'DD'-anomaly for variable 'hrcat' (lines '318'-'319').
+src/RateWindow.java:318:	Found 'DD'-anomaly for variable 'hrcat' (lines '318'-'319').
+src/RateWindow.java:318:	Found 'DD'-anomaly for variable 'hrcat' (lines '318'-'319').
+src/RateWindow.java:318:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:319:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:321:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:322:	Found 'DD'-anomaly for variable 'theseishr' (lines '322'-'322').
+src/RateWindow.java:322:	Found 'DD'-anomaly for variable 'theseishr' (lines '322'-'322').
+src/RateWindow.java:322:	Found 'DD'-anomaly for variable 'theseishr' (lines '322'-'322').
+src/RateWindow.java:322:	Found 'DD'-anomaly for variable 'theseishr' (lines '322'-'322').
+src/RateWindow.java:322:	Found 'DU'-anomaly for variable 'theseishr' (lines '322'-'383').
+src/RateWindow.java:322:	Found 'DU'-anomaly for variable 'theseishr' (lines '322'-'383').
+src/RateWindow.java:322:	Found 'DU'-anomaly for variable 'theseishr' (lines '322'-'383').
+src/RateWindow.java:322:	Found 'DU'-anomaly for variable 'theseishr' (lines '322'-'383').
+src/RateWindow.java:326:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:327:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:328:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/RateWindow.java:330:	Local variable 'audioInputStream' could be declared final
+src/RateWindow.java:330:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:330:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:331:	Local variable 'clip' could be declared final
+src/RateWindow.java:332:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:333:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:334:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/RateWindow.java:334:	Avoid empty catch blocks
+src/RateWindow.java:334:	Avoid empty catch blocks
+src/RateWindow.java:345:	Local variable 'background' could be declared final
+src/RateWindow.java:346:	Local variable 'backg' could be declared final
+src/RateWindow.java:353:	Parameter 'arg0' is not assigned and could be declared final
+src/RateWindow.java:353:	publicMethodCommentRequirement Required
+src/RateWindow.java:355:	Ensure that resources like this java.sql.Connection object are closed after use
+src/RateWindow.java:355:	Local variable 'connection' could be declared final
+src/RateWindow.java:356:	Local variable 'query1' could be declared final
+src/RateWindow.java:357:	Local variable 'pst1' could be declared final
+src/RateWindow.java:357:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:358:	Avoid variables with short names like rs
+src/RateWindow.java:358:	Ensure that resources like this ResultSet object are closed after use
+src/RateWindow.java:358:	Local variable 'rs' could be declared final
+src/RateWindow.java:358:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:359:	Local variable 'DLM' could be declared final
+src/RateWindow.java:361:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:362:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:363:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:363:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:364:	Found 'DD'-anomaly for variable 'theseiscp' (lines '364'-'364').
+src/RateWindow.java:364:	Found 'DD'-anomaly for variable 'theseiscp' (lines '364'-'364').
+src/RateWindow.java:364:	Found 'DD'-anomaly for variable 'theseiscp' (lines '364'-'364').
+src/RateWindow.java:364:	Found 'DD'-anomaly for variable 'theseiscp' (lines '364'-'364').
+src/RateWindow.java:364:	Found 'DU'-anomaly for variable 'theseiscp' (lines '364'-'383').
+src/RateWindow.java:364:	Found 'DU'-anomaly for variable 'theseiscp' (lines '364'-'383').
+src/RateWindow.java:364:	Found 'DU'-anomaly for variable 'theseiscp' (lines '364'-'383').
+src/RateWindow.java:364:	Found 'DU'-anomaly for variable 'theseiscp' (lines '364'-'383').
+src/RateWindow.java:368:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:369:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:370:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/RateWindow.java:372:	Local variable 'audioInputStream' could be declared final
+src/RateWindow.java:372:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:372:	Potential violation of Law of Demeter (method chain calls)
+src/RateWindow.java:373:	Local variable 'clip' could be declared final
+src/RateWindow.java:374:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:375:	Potential violation of Law of Demeter (object not created locally)
+src/RateWindow.java:376:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/RateWindow.java:376:	Avoid empty catch blocks
+src/RateWindow.java:376:	Avoid empty catch blocks
+src/RateWindow.java:385:	Avoid variables with short names like e
+src/RateWindow.java:385:	Parameter 'e' is not assigned and could be declared final
+src/RateWindow.java:385:	publicMethodCommentRequirement Required
+src/WelcomeGUI.java:18:	All classes and interfaces must belong to a named package
+src/WelcomeGUI.java:18:	headerCommentRequirement Required
+src/WelcomeGUI.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/WelcomeGUI.java:20:	fieldCommentRequirement Required
+src/WelcomeGUI.java:25:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/WelcomeGUI.java:25:	Parameter 'args' is not assigned and could be declared final
+src/WelcomeGUI.java:26:	To be compliant to J2EE, a webapp should not use any thread.
+src/WelcomeGUI.java:27:	publicMethodCommentRequirement Required
+src/WelcomeGUI.java:29:	Local variable 'window' could be declared final
+src/WelcomeGUI.java:30:	Potential violation of Law of Demeter (static property access)
+src/WelcomeGUI.java:31:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/WelcomeGUI.java:32:	Avoid printStackTrace(); use a logger call instead.
+src/WelcomeGUI.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/WelcomeGUI.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/WelcomeGUI.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/WelcomeGUI.java:57:	Potential violation of Law of Demeter (method chain calls)
+src/WelcomeGUI.java:60:	Potential violation of Law of Demeter (method chain calls)
+src/WelcomeGUI.java:63:	Local variable 'buttonHR' could be declared final
+src/WelcomeGUI.java:64:	Local variable 'img3' could be declared final
+src/WelcomeGUI.java:68:	Avoid variables with short names like e
+src/WelcomeGUI.java:68:	Parameter 'e' is not assigned and could be declared final
+src/WelcomeGUI.java:68:	publicMethodCommentRequirement Required
+src/WelcomeGUI.java:69:	Avoid variables with short names like hr
+src/WelcomeGUI.java:69:	Local variable 'hr' could be declared final
+src/WelcomeGUI.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/WelcomeGUI.java:76:	Local variable 'buttonCHIEF' could be declared final
+src/WelcomeGUI.java:77:	Local variable 'img4' could be declared final
+src/WelcomeGUI.java:82:	Parameter 'arg0' is not assigned and could be declared final
+src/WelcomeGUI.java:82:	publicMethodCommentRequirement Required
+src/WelcomeGUI.java:83:	Avoid variables with short names like cf
+src/WelcomeGUI.java:83:	Local variable 'cf' could be declared final
+src/WelcomeGUI.java:87:	Potential violation of Law of Demeter (method chain calls)
+src/WelcomeGUI.java:89:	Local variable 'btnNewButton' could be declared final
+src/WelcomeGUI.java:90:	Local variable 'img5' could be declared final
+src/WelcomeGUI.java:94:	Parameter 'arg0' is not assigned and could be declared final
+src/WelcomeGUI.java:94:	publicMethodCommentRequirement Required
+src/WelcomeGUI.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/WelcomeGUI.java:101:	Local variable 'label_1' could be declared final
+src/WelcomeGUI.java:102:	Local variable 'img' could be declared final
+src/WelcomeGUI.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/WelcomeGUI.java:107:	Local variable 'lblNewLabel' could be declared final
+src/WelcomeGUI.java:108:	Local variable 'img1' could be declared final
+src/WelcomeGUI.java:111:	Potential violation of Law of Demeter (method chain calls)
+src/WelcomeGUI.java:113:	Local variable 'lblNewLabel_1' could be declared final
+src/WelcomeGUI.java:114:	Local variable 'img2' could be declared final
+src/WelcomeGUI.java:117:	Potential violation of Law of Demeter (method chain calls)
+src/WelcomeGUI.java:119:	Local variable 'lblNewLabel_2' could be declared final
+src/WelcomeGUI.java:120:	Local variable 'img6' could be declared final
+src/WelcomeGUI.java:123:	Potential violation of Law of Demeter (method chain calls)
+src/WelcomeGUI.java:125:	Local variable 'background' could be declared final
+src/WelcomeGUI.java:127:	Potential violation of Law of Demeter (method chain calls)
+src/WelcomeGUI.java:129:	Local variable 'backg' could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:1:	Comment is too large: Too many lines
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:25:	fieldCommentRequirement Required
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:31:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:31:	It is a good practice to call super() in a constructor
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:31:	Parameter 'components' is not assigned and could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:31:	The user-supplied array 'components' is stored directly.
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:31:	publicMethodCommentRequirement Required
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:39:	Parameter 'delta' is not assigned and could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:39:	Parameter 'index' is not assigned and could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:40:	Local variable 'size' could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:41:	Local variable 'next' could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:42:	Consider simply returning the value vs storing it in local variable 'next'
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:44:	Parameter 'currentComponent' is not assigned and could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:44:	Parameter 'delta' is not assigned and could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:45:	Found 'DD'-anomaly for variable 'index' (lines '45'-'50').
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:47:	Found 'DD'-anomaly for variable 'component' (lines '47'-'47').
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:47:	Found 'DD'-anomaly for variable 'component' (lines '47'-'64').
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:47:	Found 'DU'-anomaly for variable 'component' (lines '47'-'71').
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:47:	Local variable 'component' could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:48:	Potential violation of Law of Demeter (object not created locally)
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:49:	Use equals() to compare object references.
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:56:	Found 'DU'-anomaly for variable 'initialIndex' (lines '56'-'71').
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:56:	Local variable 'initialIndex' could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:58:	Local variable 'newIndex' could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:62:	Found 'DU'-anomaly for variable 'index' (lines '62'-'71').
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:64:	Local variable 'component' could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:65:	Potential violation of Law of Demeter (object not created locally)
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:65:	Potential violation of Law of Demeter (object not created locally)
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:65:	Potential violation of Law of Demeter (object not created locally)
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:66:	A method should have only one exit point, and that should be the last statement in the method
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:77:	Parameter 'component' is not assigned and could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:77:	Parameter 'container' is not assigned and could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:77:	publicMethodCommentRequirement Required
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:80:	Parameter 'component' is not assigned and could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:80:	Parameter 'container' is not assigned and could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:80:	publicMethodCommentRequirement Required
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:83:	Parameter 'container' is not assigned and could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:83:	publicMethodCommentRequirement Required
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:86:	Parameter 'container' is not assigned and could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:86:	publicMethodCommentRequirement Required
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:89:	Parameter 'container' is not assigned and could be declared final
+src/org/eclipse/wb/swing/FocusTraversalOnArray.java:89:	publicMethodCommentRequirement Required

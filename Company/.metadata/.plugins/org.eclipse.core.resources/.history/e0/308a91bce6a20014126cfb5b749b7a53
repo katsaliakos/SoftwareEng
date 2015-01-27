@@ -1,0 +1,121 @@
+import java.awt.EventQueue;
+
+import javax.swing.*;
+
+import java.awt.event.WindowEvent;
+import java.awt.Font;
+import java.awt.Color;
+import java.awt.Image;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.SystemColor;
+
+public class WelcomeGUI {
+
+	private JFrame frame;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					WelcomeGUI window = new WelcomeGUI();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+
+	/**
+	 * Create the application.
+	 */
+	public WelcomeGUI() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		//Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+		//frame.setLocation(dim.width/2-this.getSize().width/2, dim.height/2-this.getSize().height/2);
+		
+		frame = new JFrame();
+		frame.setResizable(false);
+		frame.getContentPane().setForeground(SystemColor.menu);
+		frame.getContentPane().setBackground(Color.WHITE);
+		frame.setBounds(100, 100, 768, 480);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		frame.setLocationRelativeTo ( null );
+		
+		JTextPane copyrights = new JTextPane();
+		copyrights.setEditable(false);
+		copyrights.setBounds(548, 348, 194, 82);
+		copyrights.setText("Powered by Wolfpack\r\nCopyrights owed by \r\nChris Anagniou\r\nChris Katsaris\r\nElias Galanopoulos");
+		frame.getContentPane().add(copyrights);
+		
+		JButton buttonHR = new JButton("HR LOGIN");
+		Image img3 = new ImageIcon(this.getClass().getResource("/hr.png")).getImage();
+		buttonHR.setIcon(new ImageIcon(img3));
+		buttonHR.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		buttonHR.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				HRLogin hr = new HRLogin();
+				hr.setVisible(true);
+			}
+		});
+		buttonHR.setBounds(32, 319, 151, 51);
+		frame.getContentPane().add(buttonHR);
+		
+		JButton buttonCHIEF = new JButton("CHIEF LOGIN");
+		Image img4 = new ImageIcon(this.getClass().getResource("/chief.png")).getImage();
+		buttonCHIEF.setIcon(new ImageIcon(img4));
+		buttonCHIEF.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		buttonCHIEF.setBounds(233, 319, 151, 51);
+		buttonCHIEF.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				CHIEFLogin cf = new CHIEFLogin();
+				cf.setVisible(true);
+			}
+		});
+		frame.getContentPane().add(buttonCHIEF);
+		
+		JButton btnNewButton = new JButton("\u0388\u03BE\u03BF\u03B4\u03BF\u03C2");
+		Image img5 = new ImageIcon(this.getClass().getResource("/out.png")).getImage();
+		btnNewButton.setIcon(new ImageIcon(img5));
+		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
+			}
+		});
+		btnNewButton.setBounds(140, 381, 141, 51);
+		frame.getContentPane().add(btnNewButton);
+		
+		JLabel label_1 = new JLabel("");
+		Image img = new ImageIcon(this.getClass().getResource("/complogo.png")).getImage();
+		label_1.setIcon(new ImageIcon(img));
+		label_1.setBounds(0, 0, 480, 258);
+		frame.getContentPane().add(label_1);
+		
+		JLabel lblNewLabel = new JLabel("");
+		Image img1 = new ImageIcon(this.getClass().getResource("/teipir.png")).getImage();
+		lblNewLabel.setIcon(new ImageIcon(img1));
+		lblNewLabel.setBounds(548, 233, 194, 100);
+		frame.getContentPane().add(lblNewLabel);
+		
+		JLabel lblNewLabel_1 = new JLabel("New label");
+		Image img2 = new ImageIcon(this.getClass().getResource("/slogan.png")).getImage();
+		lblNewLabel_1.setIcon(new ImageIcon(img2));
+		lblNewLabel_1.setBounds(531, 51, 221, 135);
+		frame.getContentPane().add(lblNewLabel_1);
+		
+		
+	}
+}

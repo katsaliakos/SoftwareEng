@@ -1,0 +1,148 @@
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.DefaultListModel;
+import javax.swing.JList;
+import javax.swing.JOptionPane;
+import javax.swing.JScrollPane;
+import javax.swing.JButton;
+
+import com.mysql.jdbc.PreparedStatement;
+
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.awt.Font;
+
+
+public class DeleteComp extends JFrame {
+
+	private JPanel contentPane;
+	int i=0;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					DeleteComp frame = new DeleteComp();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public DeleteComp() {
+		String[] companieslist = new String[200];
+		int[] theseiscp =new int[200];
+		setTitle("\u0394\u0399\u0391\u0393\u03A1\u0391\u03A6\u0397 \u03A4\u039C\u0397\u039C\u0391\u03A4\u039F\u03A3");
+		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		setBounds(100, 100, 400, 400);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		JButton button_1 = new JButton("\u0394\u03B9\u03B1\u03B3\u03C1\u03B1\u03C6\u03AE");
+		contentPane.getRootPane().setDefaultButton(button_1);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(33, 57, 140, 249);
+		contentPane.add(scrollPane);
+		
+		JList companylist = new JList();
+		scrollPane.setViewportView(companylist);
+		
+		JButton btnCancel = new JButton("CANCEL");
+		btnCancel.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		btnCancel.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				dispose();
+			}
+		});
+		btnCancel.setBounds(216, 265, 158, 44);
+		contentPane.add(btnCancel);
+		
+		button_1.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		button_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String company = (String) companylist.getSelectedValue();
+				int action=JOptionPane.showConfirmDialog(null,"Είστε σίγουρος για την διαγραφή;","ΠΡΟΣΟΧΗ!",JOptionPane.YES_NO_OPTION);
+				if (action==0){
+					try{
+						java.sql.Connection connection = DriverManager.getConnection("jdbc:mysql://83.212.120.62:3306/companies","root","1234");
+						String query1="DROP TABLE "+company+" ";
+						PreparedStatement pst1=(PreparedStatement) connection.prepareStatement(query1);
+						int rs=pst1.executeUpdate();
+						pst1.close();
+						JOptionPane.showMessageDialog(null, "Διαγράφτηκε");
+						try{
+							java.sql.Connection connection1 = DriverManager.getConnection("jdbc:mysql://83.212.120.62:3306/companies","root","1234");
+							String query3="SHOW TABLES";
+							PreparedStatement pst3=(PreparedStatement) connection1.prepareStatement(query3);
+							ResultSet rs3=pst3.executeQuery();
+							DefaultListModel DLM = new DefaultListModel();
+							
+							while(rs3.next()){
+								companieslist[i]=rs3.getString("Tables_in_companies");
+								DLM.addElement(companieslist[i]);
+								theseiscp[i]=i;
+								i=i+1;
+							}
+							companylist.setModel(DLM);
+							pst1.close();
+							rs3.close();		
+						}catch (Exception ex){
+							JOptionPane.showMessageDialog(null, ex);
+						}
+					}catch(Exception E){
+						JOptionPane.showMessageDialog(null, E);
+					}
+				}else{
+					
+				}
+				
+			}
+		});
+		button_1.setBounds(216, 165, 158, 44);
+		contentPane.add(button_1);
+		
+		JButton button_2 = new JButton("Φόρτωση Τμημάτων");
+		button_2.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		button_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				try{
+					java.sql.Connection connection = DriverManager.getConnection("jdbc:mysql://83.212.120.62:3306/companies","root","1234");
+					String query1="SHOW TABLES";
+					PreparedStatement pst1=(PreparedStatement) connection.prepareStatement(query1);
+					ResultSet rs=pst1.executeQuery();
+					DefaultListModel DLM = new DefaultListModel();
+					
+					while(rs.next()){
+						companieslist[i]=rs.getString("Tables_in_companies");
+						DLM.addElement(companieslist[i]);
+						theseiscp[i]=i;
+						i=i+1;
+					}
+					companylist.setModel(DLM);
+					pst1.close();
+					rs.close();		
+				}catch (Exception ex){
+					JOptionPane.showMessageDialog(null, ex);
+				}
+			}
+		});
+		button_2.setBounds(10, 317, 184, 32);
+		contentPane.add(button_2);
+	}
+}
